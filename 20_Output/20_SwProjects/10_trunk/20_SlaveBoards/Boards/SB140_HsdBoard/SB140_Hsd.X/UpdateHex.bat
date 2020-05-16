@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB140_Hsd.X.production.hex" "..\..\01_FwImages\"

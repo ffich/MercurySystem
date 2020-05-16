@@ -1,0 +1,3807 @@
+Microchip MPLAB XC8 Compiler V1.38 ()
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\Microchip\xc8\v1.38\dat\en_msgs.txt -cs \
+  -h+dist/default/production\SB320_Infrared.X.production.sym \
+  --cmf=dist/default/production\SB320_Infrared.X.production.cmf -z \
+  -Q16F1825 -oC:\Users\FRANCE~1\AppData\Local\Temp\s164.2 \
+  -Mdist/default/production/SB320_Infrared.X.production.map -E1 -ver=XC8 \
+  -ASTACK=02230h-0239ch -pstack=STACK -ACODE=00h-07FFhx4 \
+  -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
+  -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh -ABANK3=01A0h-01EFh \
+  -ABANK4=0220h-026Fh -ABANK5=02A0h-02EFh -ABANK6=0320h-036Fh \
+  -ABANK7=03A0h-03EFh -ABANK8=0420h-046Fh -ABANK9=04A0h-04EFh \
+  -ABANK10=0520h-056Fh -ABANK11=05A0h-05EFh -ABANK12=0620h-064Fh \
+  -ABIGRAM=02000h-023EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-026Fh,02A0h-02EFh,0320h-036Fh,03A0h-03EFh,0420h-046Fh,04A0h-04EFh,0520h-056Fh,05A0h-05EFh,0620h-064Fh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-026Fh,02A0h-02EFh,0320h-036Fh,03A0h-03EFh,0420h-046Fh,04A0h-04EFh,0520h-056Fh,05A0h-05EFh,0620h-064Fh \
+  -ASFR0=00h-01Fh -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-019Fh \
+  -ASFR4=0200h-021Fh -ASFR5=0280h-029Fh -ASFR6=0300h-031Fh \
+  -ASFR7=0380h-039Fh -ASFR8=0400h-041Fh -ASFR9=0480h-049Fh \
+  -ASFR10=0500h-051Fh -ASFR11=0580h-059Fh -ASFR12=0600h-061Fh \
+  -ASFR13=0680h-06EFh -ASFR14=0700h-076Fh -ASFR15=0780h-07EFh \
+  -ASFR16=0800h-086Fh -ASFR17=0880h-08EFh -ASFR18=0900h-096Fh \
+  -ASFR19=0980h-09EFh -ASFR20=0A00h-0A6Fh -ASFR21=0A80h-0AEFh \
+  -ASFR22=0B00h-0B6Fh -ASFR23=0B80h-0BEFh -ASFR24=0C00h-0C6Fh \
+  -ASFR25=0C80h-0CEFh -ASFR26=0D00h-0D6Fh -ASFR27=0D80h-0DEFh \
+  -ASFR28=0E00h-0E6Fh -ASFR29=0E80h-0EEFh -ASFR30=0F00h-0F6Fh \
+  -ASFR31=0F80h-0FEFh -preset_vec=00h,intentry=04h,init,end_init \
+  -ppowerup=CODE -pcinit=CODE -pfunctab=CODE -ACONFIG=08007h-08008h \
+  -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
+  -AEEDATA=00h-0FFh/0F000h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
+  -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
+  C:\Users\FRANCE~1\AppData\Local\Temp\s164.obj \
+  dist/default/production\SB320_Infrared.X.production.obj 
+
+Object code version is 3.11
+
+Machine type is 16F1825
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\FRANCE~1\AppData\Local\Temp\s164.obj
+                end_init                             2C       2C        2        8       0
+                reset_vec                             0        0        2        0       0
+                config                             8007     8007        2    1000E       0
+dist/default/production\SB320_Infrared.X.production.obj
+                cinit                                2E       2E       74        8       0
+                intentry                              4        4       28        8       0
+                text71                              B82      B82       21     1704       0
+                text69                              E23      E23       4B     1C46       0
+                text68                              DAA      DAA       37     1B54       0
+                text67                              BA3      BA3       21     1746       0
+                text66                              990      990        2     1320       0
+                text65                              994      994        3     1328       0
+                text64                              A55      A55        E     14AA       0
+                text63                              AB3      AB3       13     1566       0
+                text62                              BC4      BC4       22     1788       0
+                text61                              A63      A63       10     14C6       0
+                text60                              9A0      9A0        4     1340       0
+                text59                              A18      A18        C     1430       0
+                text58                              997      997        3     132E       0
+                text57                              B33      B33       19     1666       0
+                text56                              9BC      9BC        8     1378       0
+                text55                              A24      A24        C     1448       0
+                text54                              B4C      B4C       19     1698       0
+                text53                              A73      A73       10     14E6       0
+                text52                              DE1      DE1       42     1BC2       0
+                text51                              BE6      BE6       23     17CC       0
+                text50                              D75      D75       35     1AEA       0
+                text49                              C83      C83       2D     1906       0
+                text48                              782      782       62        8       0
+                text47                              199      199       EE        8       0
+                text46                              FA8      FA8       58     1F50       0
+                text45                              CE0      CE0       31     19C0       0
+                text44                              C31      C31       29     1862       0
+                text43                              9E5      9E5        A     13CA       0
+                text42                              A48      A48        D     1490       0
+                text41                              645      645       6F        8       0
+                text40                              9C4      9C4        8     1388       0
+                text39                              9CC      9CC        8     1398       0
+                text38                              9D4      9D4        8     13A8       0
+                text37                              9A4      9A4        5     1348       0
+                text36                              9A9      9A9        5     1352       0
+                text35                              B65      B65       1D     16CA       0
+                text34                              53D      53D       8D        8       0
+                text33                              A83      A83       10     1506       0
+                text32                              A93      A93       10     1526       0
+                text31                              401      401       AC        8       0
+                text30                              AC6      AC6       14     158C       0
+                text29                              9EF      9EF        A     13DE       0
+                text28                              9F9      9F9        A     13F2       0
+                text27                              A03      A03        A     1406       0
+                text26                              4AD      4AD       90        8       0
+                text25                              6B4      6B4       68        8       0
+                text24                              D11      D11       31     1A22       0
+                text23                              EB9      EB9       4E     1D72       0
+                text22                              992      992        2     1324       0
+                text21                              A0D      A0D        B     141A       0
+                text20                              AEF      AEF       16     15DE       0
+                swtext1                             800      800        A     1000       0
+                text19                               A2       A2       F7        8       0
+                text18                              ADA      ADA       15     15B4       0
+                text17                              D42      D42       33     1A84       0
+                text16                              71C      71C       66        8       0
+                text15                              F07      F07       4E     1E0E       0
+                text14                              287      287       C4        8       0
+                text13                              AA3      AA3       10     1546       0
+                text12                              5CA      5CA       7B        8       0
+                text11                              B05      B05       17     160A       0
+                text10                              C5A      C5A       29     18B4       0
+                text9                               F55      F55       53     1EAA       0
+                text8                               CB0      CB0       30     1960       0
+                text7                               7E4      7E4       1C        8       0
+                text6                               34B      34B       B6        8       0
+                text5                               E6E      E6E       4B     1CDC       0
+                text4                               B1C      B1C       17     1638       0
+                text3                               99A      99A        3     1334       0
+                text2                               9AE      9AE        7     135C       0
+                text1                               9DC      9DC        9     13B8       0
+                maintext                            9B5      9B5        7     136A       0
+                cstackBANK0                          20       20       38       20       1
+                cstackCOMMON                         70       70        6       70       1
+                cstackBANK1                          E0       E0        6       A0       1
+                clrtext                             A30      A30        C     1460       0
+                inittext                            A3C      A3C        C     1478       0
+                bssBANK6                            320      320       50      320       1
+                bssBANK5                            2A0      2A0       50      2A0       1
+                bssBANK4                            220      220       50      220       1
+                bssBANK3                            1A0      1A0       50      1A0       1
+                dataBANK2                           120      120       28      120       1
+                bssBANK1                             A0       A0       40       A0       1
+                dataBANK0                            6B       6B        3       20       1
+                bssBANK0                             58       58       13       20       1
+                dataCOMMON                           78       78        2       70       1
+                bssCOMMON                            76       76        2       70       1
+                stringtext                         1000     1000       31     2000       0
+                idataBANK2                          C09      C09       28     1812       0
+                idataBANK0                          99D      99D        3     133A       0
+                idataCOMMON                           2        2        2        0       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                             2C       2C        2         0
+                cinit                                2E       2E       74         0
+                intentry                              4        4       28         0
+                reset_vec                             0        0        2         0
+                text71                              B82      B82       21         0
+                text69                              E23      E23       4B         0
+                text68                              DAA      DAA       37         0
+                text67                              BA3      BA3       21         0
+                text66                              990      990        2         0
+                text65                              994      994        3         0
+                text64                              A55      A55        E         0
+                text63                              AB3      AB3       13         0
+                text62                              BC4      BC4       22         0
+                text61                              A63      A63       10         0
+                text60                              9A0      9A0        4         0
+                text59                              A18      A18        C         0
+                text58                              997      997        3         0
+                text57                              B33      B33       19         0
+                text56                              9BC      9BC        8         0
+                text55                              A24      A24        C         0
+                text54                              B4C      B4C       19         0
+                text53                              A73      A73       10         0
+                text52                              DE1      DE1       42         0
+                text51                              BE6      BE6       23         0
+                text50                              D75      D75       35         0
+                text49                              C83      C83       2D         0
+                text48                              782      782       62         0
+                text47                              199      199       EE         0
+                text46                              FA8      FA8       58         0
+                text45                              CE0      CE0       31         0
+                text44                              C31      C31       29         0
+                text43                              9E5      9E5        A         0
+                text42                              A48      A48        D         0
+                text41                              645      645       6F         0
+                text40                              9C4      9C4        8         0
+                text39                              9CC      9CC        8         0
+                text38                              9D4      9D4        8         0
+                text37                              9A4      9A4        5         0
+                text36                              9A9      9A9        5         0
+                text35                              B65      B65       1D         0
+                text34                              53D      53D       8D         0
+                text33                              A83      A83       10         0
+                text32                              A93      A93       10         0
+                text31                              401      401       AC         0
+                text30                              AC6      AC6       14         0
+                text29                              9EF      9EF        A         0
+                text28                              9F9      9F9        A         0
+                text27                              A03      A03        A         0
+                text26                              4AD      4AD       90         0
+                text25                              6B4      6B4       68         0
+                text24                              D11      D11       31         0
+                text23                              EB9      EB9       4E         0
+                text22                              992      992        2         0
+                text21                              A0D      A0D        B         0
+                text20                              AEF      AEF       16         0
+                text19                               A2       A2       F7         0
+                text18                              ADA      ADA       15         0
+                text17                              D42      D42       33         0
+                text16                              71C      71C       66         0
+                text15                              F07      F07       4E         0
+                text14                              287      287       C4         0
+                text13                              AA3      AA3       10         0
+                text12                              5CA      5CA       7B         0
+                text11                              B05      B05       17         0
+                text10                              C5A      C5A       29         0
+                text9                               F55      F55       53         0
+                text8                               CB0      CB0       30         0
+                text7                               7E4      7E4       1C         0
+                text6                               34B      34B       B6         0
+                text5                               E6E      E6E       4B         0
+                text4                               B1C      B1C       17         0
+                text3                               99A      99A        3         0
+                text2                               9AE      9AE        7         0
+                text1                               9DC      9DC        9         0
+                maintext                            9B5      9B5        7         0
+                clrtext                             A30      A30        C         0
+                inittext                            A3C      A3C        C         0
+                idataBANK2                          C09      C09       28         0
+                idataBANK0                          99D      99D        3         0
+                idataCOMMON                           2        2        2         0
+
+        CLASS   STRCODE        
+                stringtext                         1000     1000       31         0
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+                swtext1                             800      800        A         0
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        6         1
+                dataCOMMON                           78       78        2         1
+                bssCOMMON                            76       76        2         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       38         1
+                dataBANK0                            6B       6B        3         1
+                bssBANK0                             58       58       13         1
+
+        CLASS   BANK1          
+                cstackBANK1                          E0       E0        6         1
+                bssBANK1                             A0       A0       40         1
+
+        CLASS   BANK2          
+                dataBANK2                           120      120       28         1
+
+        CLASS   BANK3          
+                bssBANK3                            1A0      1A0       50         1
+
+        CLASS   BANK4          
+                bssBANK4                            220      220       50         1
+
+        CLASS   BANK5          
+                bssBANK5                            2A0      2A0       50         1
+
+        CLASS   BANK6          
+                bssBANK6                            320      320       50         1
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+                abs_s1                              5CD      5CD       23         1
+                abs_s1                              620      620       30         1
+                abs_s1                             239D     239D        0         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   SFR4           
+
+        CLASS   SFR5           
+
+        CLASS   SFR6           
+
+        CLASS   SFR7           
+
+        CLASS   SFR8           
+
+        CLASS   SFR9           
+
+        CLASS   SFR10          
+
+        CLASS   SFR11          
+
+        CLASS   SFR12          
+
+        CLASS   SFR13          
+
+        CLASS   SFR14          
+
+        CLASS   SFR15          
+
+        CLASS   SFR16          
+
+        CLASS   SFR17          
+
+        CLASS   SFR18          
+
+        CLASS   SFR19          
+
+        CLASS   SFR20          
+
+        CLASS   SFR21          
+
+        CLASS   SFR22          
+
+        CLASS   SFR23          
+
+        CLASS   SFR24          
+
+        CLASS   SFR25          
+
+        CLASS   SFR26          
+
+        CLASS   SFR27          
+
+        CLASS   SFR28          
+
+        CLASS   SFR29          
+
+        CLASS   SFR30          
+
+        CLASS   SFR31          
+
+        CLASS   CONFIG         
+                config                             8007     8007        2         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+        CLASS   BANK31         
+
+        CLASS   BANK30         
+
+        CLASS   BANK29         
+
+        CLASS   BANK28         
+
+        CLASS   BANK27         
+
+        CLASS   BANK26         
+
+        CLASS   BANK25         
+
+        CLASS   BANK24         
+
+        CLASS   BANK23         
+
+        CLASS   BANK22         
+
+        CLASS   BANK21         
+
+        CLASS   BANK20         
+
+        CLASS   BANK19         
+
+        CLASS   BANK18         
+
+        CLASS   BANK17         
+
+        CLASS   BANK16         
+
+        CLASS   BANK15         
+
+        CLASS   BANK14         
+
+        CLASS   BANK13         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000004  000004         0       0  CODE        2
+                intentry                       000004  0007FC  000800         8       0  CODE        2
+                cstackBANK0                    000020  00004E  00006E        20       1  BANK0       1
+                cstackCOMMON                   000070  00000A  00007A        70       1  COMMON      1
+                bssBANK1                       0000A0  000046  0000E6        A0       1  BANK1       1
+                dataBANK2                      000120  000028  000148       120       1  BANK2       1
+                bssBANK3                       0001A0  000050  0001F0       1A0       1  BANK3       1
+                bssBANK4                       000220  000050  000270       220       1  BANK4       1
+                bssBANK5                       0002A0  000050  0002F0       2A0       1  BANK5       1
+                bssBANK6                       000320  000050  000370       320       1  BANK6       1
+                swtext1                        000800  00000A  00080A      1000       0  CONST       2
+                text66                         000990  000002  000992      1320       0  CODE        2
+                text22                         000992  000002  000994      1324       0  CODE        2
+                text65                         000994  000003  000997      1328       0  CODE        2
+                text58                         000997  000003  00099A      132E       0  CODE        2
+                text3                          00099A  000003  00099D      1334       0  CODE        2
+                idataBANK0                     00099D  000003  0009A0      133A       0  CODE        2
+                text60                         0009A0  000004  0009A4      1340       0  CODE        2
+                text37                         0009A4  000005  0009A9      1348       0  CODE        2
+                text36                         0009A9  000005  0009AE      1352       0  CODE        2
+                text2                          0009AE  000007  0009B5      135C       0  CODE        2
+                maintext                       0009B5  000007  0009BC      136A       0  CODE        2
+                text56                         0009BC  000008  0009C4      1378       0  CODE        2
+                text40                         0009C4  000008  0009CC      1388       0  CODE        2
+                text39                         0009CC  000008  0009D4      1398       0  CODE        2
+                text38                         0009D4  000008  0009DC      13A8       0  CODE        2
+                text1                          0009DC  000009  0009E5      13B8       0  CODE        2
+                text43                         0009E5  00000A  0009EF      13CA       0  CODE        2
+                text29                         0009EF  00000A  0009F9      13DE       0  CODE        2
+                text28                         0009F9  00000A  000A03      13F2       0  CODE        2
+                text27                         000A03  00000A  000A0D      1406       0  CODE        2
+                text21                         000A0D  00000B  000A18      141A       0  CODE        2
+                text59                         000A18  00000C  000A24      1430       0  CODE        2
+                text55                         000A24  00000C  000A30      1448       0  CODE        2
+                clrtext                        000A30  00000C  000A3C      1460       0  CODE        2
+                inittext                       000A3C  00000C  000A48      1478       0  CODE        2
+                text42                         000A48  00000D  000A55      1490       0  CODE        2
+                text64                         000A55  00000E  000A63      14AA       0  CODE        2
+                text61                         000A63  000010  000A73      14C6       0  CODE        2
+                text53                         000A73  000010  000A83      14E6       0  CODE        2
+                text33                         000A83  000010  000A93      1506       0  CODE        2
+                text32                         000A93  000010  000AA3      1526       0  CODE        2
+                text13                         000AA3  000010  000AB3      1546       0  CODE        2
+                text63                         000AB3  000013  000AC6      1566       0  CODE        2
+                text30                         000AC6  000014  000ADA      158C       0  CODE        2
+                text18                         000ADA  000015  000AEF      15B4       0  CODE        2
+                text20                         000AEF  000016  000B05      15DE       0  CODE        2
+                text11                         000B05  000017  000B1C      160A       0  CODE        2
+                text4                          000B1C  000017  000B33      1638       0  CODE        2
+                text57                         000B33  000019  000B4C      1666       0  CODE        2
+                text54                         000B4C  000019  000B65      1698       0  CODE        2
+                text35                         000B65  00001D  000B82      16CA       0  CODE        2
+                text71                         000B82  000021  000BA3      1704       0  CODE        2
+                text67                         000BA3  000021  000BC4      1746       0  CODE        2
+                text62                         000BC4  000022  000BE6      1788       0  CODE        2
+                text51                         000BE6  000023  000C09      17CC       0  CODE        2
+                idataBANK2                     000C09  000028  000C31      1812       0  CODE        2
+                text44                         000C31  000029  000C5A      1862       0  CODE        2
+                text10                         000C5A  000029  000C83      18B4       0  CODE        2
+                text49                         000C83  00002D  000CB0      1906       0  CODE        2
+                text8                          000CB0  000030  000CE0      1960       0  CODE        2
+                text45                         000CE0  000031  000D11      19C0       0  CODE        2
+                text24                         000D11  000031  000D42      1A22       0  CODE        2
+                text17                         000D42  000033  000D75      1A84       0  CODE        2
+                text50                         000D75  000035  000DAA      1AEA       0  CODE        2
+                text68                         000DAA  000037  000DE1      1B54       0  CODE        2
+                text52                         000DE1  000042  000E23      1BC2       0  CODE        2
+                text69                         000E23  00004B  000E6E      1C46       0  CODE        2
+                text5                          000E6E  00004B  000EB9      1CDC       0  CODE        2
+                text23                         000EB9  00004E  000F07      1D72       0  CODE        2
+                text15                         000F07  00004E  000F55      1E0E       0  CODE        2
+                text9                          000F55  000053  000FA8      1EAA       0  CODE        2
+                text46                         000FA8  000058  001000      1F50       0  CODE        2
+                stringtext                     001000  000031  001031      2000       0  STRCODE     2
+                config                         008007  000002  008009     1000E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0006E-0006F               2           1
+        BANK1            000E6-000EF               A           1
+        BANK10           00520-0056F              50           1
+        BANK11           005A0-005CC              2D           1
+        BANK2            00148-0016F              28           1
+        BANK7            003A0-003EF              50           1
+        BANK8            00420-0046F              50           1
+        BANK9            004A0-004EF              50           1
+        BIGRAM           02000-023EF             3F0           1
+        CODE             0080A-0098F             186           2
+                         01031-01FFF             7CF
+        COMMON           0007A-0007D               4           1
+        CONST            0080A-0098F              F6           2
+                         01031-01FFF             100
+        EEDATA           0F000-0F0FF             100           2
+        ENTRY            0080A-0098F              F6           2
+                         01031-01FFF             100
+        IDLOC            08000-08003               4           2
+        RAM              0006E-0006F               2           1
+                         000E6-000EF               A
+                         00148-0016F              28
+                         003A0-003EF              50
+                         00420-0046F              50
+                         004A0-004EF              50
+                         00520-0056F              50
+                         005A0-005CC              2D
+        SFR0             00000-0001F              20           1
+        SFR1             00080-0009F              20           1
+        SFR10            00500-0051F              20           1
+        SFR11            00580-0059F              20           1
+        SFR12            00600-0061F              20           1
+        SFR13            00680-006EF              70           1
+        SFR14            00700-0076F              70           1
+        SFR15            00780-007EF              70           1
+        SFR16            00800-0086F              70           1
+        SFR17            00880-008EF              70           1
+        SFR18            00900-0096F              70           1
+        SFR19            00980-009EF              70           1
+        SFR2             00100-0011F              20           1
+        SFR20            00A00-00A6F              70           1
+        SFR21            00A80-00AEF              70           1
+        SFR22            00B00-00B6F              70           1
+        SFR23            00B80-00BEF              70           1
+        SFR24            00C00-00C6F              70           1
+        SFR25            00C80-00CEF              70           1
+        SFR26            00D00-00D6F              70           1
+        SFR27            00D80-00DEF              70           1
+        SFR28            00E00-00E6F              70           1
+        SFR29            00E80-00EEF              70           1
+        SFR3             00180-0019F              20           1
+        SFR30            00F00-00F6F              70           1
+        SFR31            00F80-00FEF              70           1
+        SFR4             00200-0021F              20           1
+        SFR5             00280-0029F              20           1
+        SFR6             00300-0031F              20           1
+        SFR7             00380-0039F              20           1
+        SFR8             00400-0041F              20           1
+        SFR9             00480-0049F              20           1
+        STACK            02230-0239C             16D           1
+        STRCODE          0080A-0098F             186           2
+                         01031-01FFF             FCF
+        STRING           0080A-0098F              F6           2
+                         01031-01FFF             100
+
+                                  Symbol Table
+
+?_Adc_GetConvResult                    cstackCOMMON 00074
+?_GetDieTemperature                    cstackBANK0  00023
+?___lldiv                              cstackBANK0  00020
+?___lmul                               cstackBANK0  00024
+?___lwdiv                              cstackBANK0  00020
+?___lwmod                              cstackBANK0  00020
+?___wmul                               cstackBANK0  00020
+Adc_ConfigAnCh@AnChSel                 cstackCOMMON 00074
+Adc_GetConvResult@AdcResult            cstackBANK0  00021
+Adc_InitAdcModule@AdcConfig            cstackCOMMON 00074
+Adc_SelectChannel@SelCh                cstackCOMMON 00075
+AppSm@AppState                         bssBANK0     00058
+AppSm@WpuSetCounter                    bssBANK0     00059
+App_MainTask@AdcConfig                 cstackBANK0  00051
+App_MainTask@AnalogChSel               cstackBANK0  0003D
+App_MainTask@F3799                     bssBANK1     000A0
+App_MainTask@F3813                     bssBANK1     000AC
+App_MainTask@Options                   cstackBANK0  0003B
+App_MainTask@WpuCh                     cstackBANK0  00045
+ClearRxBuffer@Index                    cstackCOMMON 00075
+ClearTxBuffer@Index                    cstackCOMMON 00075
+GenerateEvt@Event                      cstackBANK0  00021
+GenerateEvt@EventStatus                cstackBANK0  00020
+GetDieTemperature@DieTempRes           cstackBANK0  00025
+I2cSlv_I2cDrvHandle@I2cReceiveMsgState bssBANK0     0005A
+I2cSlv_I2cDrvHandle@Index              cstackBANK0  00029
+I2c_DataReceiveSm@AddressStored        bssBANK0     0005B
+I2c_DataReceiveSm@ErrorCounter         bssBANK0     0005C
+I2c_DataReceiveSm@I2cRxAddress         bssBANK0     0005D
+I2c_DataReceiveSm@I2cRxFlag            bssBANK0     0005E
+I2c_DataReceiveSm@I2cRxState           bssBANK0     0005F
+I2c_DataReceiveSm@Index                cstackBANK0  00043
+I2c_DataReceiveSm@OpType               bssBANK0     00060
+I2c_DataReceiveSm@RxCounter            bssBANK0     00061
+I2c_DataReceiveSm@TxCounter            bssBANK0     00062
+I2c_InitI2cModule@I2cConfig            cstackBANK0  00022
+I2c_SetI2cAddress@SlaveAddress         cstackCOMMON 00074
+I2c_SetI2cAddressMask@SlaveAddressMask cstackCOMMON 00074
+I2c_UpdateTxBuffer@DataBuffer          cstackBANK0  00022
+I2c_UpdateTxBuffer@Index               cstackBANK0  00023
+I2c_UpdateTxBuffer@Length              cstackCOMMON 00074
+InitSchTimer@TmrBConfig                cstackBANK0  00046
+InitializeTasks@ActiveTaskIndex        cstackBANK0  00057
+LedBlinkStateMachine@LedBlink          cstackCOMMON 00075
+LedPulseStateMachine@Led               cstackBANK0  00027
+LedPulseStateMachine@LedPulse          cstackBANK0  0002A
+LedStateMachine@Led                    cstackBANK0  00030
+LedStateMachine@LedBlink               cstackBANK0  0002C
+LedStateMachine@LedOutSts              cstackBANK0  00031
+LedStateMachine@LedPulse               cstackBANK0  0002D
+LedStateMachine@LedSts                 cstackBANK0  0002B
+Led_InitSeq@Counter                    bssBANK0     00063
+Led_InitSeq@DelayCounter               bssBANK1     000B4
+Led_InitSeq@InitSeqState               bssBANK0     00064
+Led_InitSeq@LedInitSts                 dataCOMMON   00078
+Led_SetLedBlinkTime@Led                cstackCOMMON 00074
+Led_SetLedBlinkTime@OffTimeMs          cstackBANK0  00022
+Led_SetLedBlinkTime@OnTimeMs           cstackBANK0  00020
+Led_SetLedPulseTime@Led                cstackBANK0  00020
+Led_SetLedPulseTime@PulseTimeMs        cstackCOMMON 00074
+Led_SetLedStatus@Led                   cstackBANK0  00020
+Led_SetLedStatus@LedSts                cstackCOMMON 00074
+Mcu_ConfigPullUps@WpuCh                cstackCOMMON 00074
+Mcu_SetDieTempMode@DieTempMode         cstackCOMMON 00074
+Mcu_SetDieTempSts@DieTempSts           cstackCOMMON 00074
+Mcu_SetPullUpsSts@PuSts                cstackCOMMON 00074
+Mcu_SetWdgPeriod@WdgPeriod             cstackCOMMON 00075
+Mcu_SetWdgSts@WdgSts                   cstackCOMMON 00074
+ReceiveEvt@Event                       cstackCOMMON 00075
+ReceiveEvt@EventStatus                 cstackCOMMON 00074
+ScheduleTasks@ActiveTaskIndex          cstackBANK0  00057
+SetLedBehavSts@LedBehav                cstackBANK0  00025
+StdS_ManageStdServices@DieTemp         cstackBANK0  00036
+StdS_ManageStdServices@DieTempStr      cstackBANK0  00032
+StringCopy@DestStr                     cstackBANK0  00022
+StringCopy@Index                       cstackCOMMON 00074
+StringCopy@Len                         cstackBANK0  00023
+StringCopy@SourceStr                   cstackBANK0  00020
+TmrBInit@Postscaler                    cstackCOMMON 00075
+TmrBInit@Prescaler                     cstackCOMMON 00074
+TmrBInit@TmrNumb                       cstackBANK0  00021
+Tmr_StartTmr@TmrNumb                   cstackCOMMON 00074
+Tmr_TmrBConfig@TmrBConfig              cstackBANK0  00042
+Tmr_TmrBConfig@TmrNumb                 cstackBANK0  00044
+Tmr_TmrBIrqSet@TmrIrqSts               cstackCOMMON 00074
+Tmr_TmrBIrqSet@TmrNumb                 cstackCOMMON 00075
+Tmr_TmrBPrSet@Divisor                  cstackBANK0  0003E
+Tmr_TmrBPrSet@IntFreqHz                cstackBANK0  00030
+Tmr_TmrBPrSet@Postscaler               cstackBANK0  00033
+Tmr_TmrBPrSet@Prescaler                cstackBANK0  00032
+Tmr_TmrBPrSet@TmrBPrCfgSts             cstackBANK0  0003D
+Tmr_TmrBPrSet@TmrNumb                  cstackBANK0  0003C
+_ADCON0bits                            (abs)        0009D
+_ADCON1bits                            (abs)        0009E
+_ADRESH                                (abs)        0009C
+_ADRESL                                (abs)        0009B
+_ANSELA                                (abs)        0018C
+_ANSELAbits                            (abs)        0018C
+_ANSELC                                (abs)        0018E
+_ANSELCbits                            (abs)        0018E
+_Adc_ConfigAnCh                        text69       00E23
+_Adc_GetConvResult                     text61       00A63
+_Adc_GetConvSts                        text60       009A0
+_Adc_InitAdcModule                     text68       00DAA
+_Adc_SelectChannel                     text59       00A18
+_Adc_StartConversion                   text58       00997
+_AppSm                                 text44       00C31
+_App_MainTask                          text16       0071C
+_BoardReset                            text65       00994
+_CheckAckStatus                        text29       009EF
+_CheckByteStatus                       text28       009F9
+_CheckStopBitStatus                    text27       00A03
+_ClearRxBuffer                         text33       00A83
+_ClearTxBuffer                         text32       00A93
+_CmdBuffer                             bssBANK4     00220
+_ControlLedDirect                      text63       00AB3
+_FVRCONbits                            (abs)        00117
+_GenerateEvt                           text62       00BC4
+_GetDieTemperature                     text57       00B33
+_GetIrSensSts                          text43       009E5
+_I2cConfig                             bssBANK1     000BE
+_I2cNewPacketNotification              bssBANK1     000D8
+_I2cNewTxNotification                  bssBANK1     000DA
+_I2cPacket                             (abs)        0239D
+_I2cReplyPacketReady                   bssBANK0     00068
+_I2cRxBuffer                           bssBANK6     00320
+_I2cSetAddress                         bssBANK1     000DC
+_I2cSlaveAddress                       bssCOMMON    00076
+_I2cSlv_I2cDrvHandle                   text34       0053D
+_I2cSlv_MainTask                       text18       00ADA
+_I2cTxBuffer                           bssBANK5     002A0
+_I2cWriteRequest                       bssBANK1     000DE
+_I2c_DataReceiveSm                     text19       000A2
+_I2c_InitI2cModule                     text31       00401
+_I2c_SetConfig                         text30       00AC6
+_I2c_SetI2cAddress                     text37       009A4
+_I2c_SetI2cAddressMask                 text36       009A9
+_I2c_UpdateTxBuffer                    text35       00B65
+_INTCONbits                            (abs)        0000B
+_InitSchTimer                          text4        00B1C
+_InitializeTasks                       text15       00F07
+_Int0Trigger                           text42       00A48
+_InterruptCounter                      bssBANK1     000B6
+_IrSens1                               bssBANK0     00065
+_IrSens1Str                            dataBANK0    0006C
+_IrSens2                               bssBANK0     00066
+_IrSens2Str                            dataBANK0    0006D
+_LATA                                  (abs)        0010C
+_LATAbits                              (abs)        0010C
+_LATC                                  (abs)        0010E
+_Led1Blink                             bssBANK1     000C9
+_Led1Pulse                             bssBANK1     000D2
+_Led1Sts                               bssBANK0     0006A
+_LedBehaviourSts                       dataCOMMON   00079
+_LedBlinkStateMachine                  text26       004AD
+_LedPulseStateMachine                  text25       006B4
+_LedStateMachine                       text24       00D11
+_Led_InitSeq                           text23       00EB9
+_Led_MainTask                          text17       00D42
+_Led_SetLedBlinkTime                   text54       00B4C
+_Led_SetLedPulseTime                   text53       00A73
+_Led_SetLedStatus                      text64       00A55
+_LowPowerMode                          text55       00A24
+_MainInterrupt                         intentry     00004
+_MainScheduler                         text13       00AA3
+_MainSystemTimebaseFlag                dataBANK0    0006B
+_ManageProtocol                        text46       00FA8
+_Mcu_ClearWdg                          text22       00992
+_Mcu_ConfigPullUps                     text41       00645
+_Mcu_EnableInterrupts                  text3        0099A
+_Mcu_InitIntOsc                        text2        009AE
+_Mcu_Reset                             text66       00990
+_Mcu_SetDieTempMode                    text40       009C4
+_Mcu_SetDieTempSts                     text39       009CC
+_Mcu_SetPullUpsSts                     text38       009D4
+_Mcu_SetWdgPeriod                      text21       00A0D
+_Mcu_SetWdgSts                         text56       009BC
+_OPTION_REGbits                        (abs)        00095
+_OSCCONbits                            (abs)        00099
+_OSCSTATbits                           (abs)        0009A
+_PIE1bits                              (abs)        00091
+_PIE3bits                              (abs)        00093
+_PIR1bits                              (abs)        00011
+_PIR3bits                              (abs)        00013
+_PORTAbits                             (abs)        0000C
+_PORTCbits                             (abs)        0000E
+_PR2                                   (abs)        0001B
+_PR4                                   (abs)        00416
+_PR6                                   (abs)        0041D
+_ReceiveEvt                            text67       00BA3
+_RepBuffer                             bssBANK3     001A0
+_RepBufferLen                          bssCOMMON    00077
+_SSP1ADD                               (abs)        00212
+_SSP1BUF                               (abs)        00211
+_SSP1CON1                              (abs)        00215
+_SSP1CON1bits                          (abs)        00215
+_SSP1CON2                              (abs)        00216
+_SSP1CON3                              (abs)        00217
+_SSP1MSK                               (abs)        00213
+_SSP1STAT                              (abs)        00214
+_ScheduleTasks                         text14       00287
+_SetLedBehavSts                        text52       00DE1
+_StdS_ManageStdServices                text47       00199
+_StdS_SetI2cAddress                    text45       00CE0
+_StringCopy                            text51       00BE6
+_SystemInit                            text1        009DC
+_SystemState                           bssBANK0     00067
+_T2CONbits                             (abs)        0001C
+_T4CONbits                             (abs)        00417
+_T6CONbits                             (abs)        0041E
+_TRISAbits                             (abs)        0008C
+_TRISCbits                             (abs)        0008E
+_TaskNumber                            stringtext   0100A
+_TaskTable                             dataBANK2    00120
+_TmrBInit                              text12       005CA
+_Tmr_StartTmr                          text11       00B05
+_Tmr_TmrBConfig                        text5        00E6E
+_Tmr_TmrBIrqSet                        text10       00C5A
+_Tmr_TmrBPrSet                         text6        0034B
+_WDTCONbits                            (abs)        00097
+_WPUA                                  (abs)        0020C
+_WPUAbits                              (abs)        0020C
+_WPUC                                  (abs)        0020E
+_WPUCbits                              (abs)        0020E
+_Wdg_MainTask                          text20       00AEF
+__CFG_BOREN$ON                         (abs)        00000
+__CFG_BORV$LO                          (abs)        00000
+__CFG_CLKOUTEN$OFF                     (abs)        00000
+__CFG_CP$OFF                           (abs)        00000
+__CFG_CPD$OFF                          (abs)        00000
+__CFG_FCMEN$ON                         (abs)        00000
+__CFG_FOSC$INTOSC                      (abs)        00000
+__CFG_IESO$ON                          (abs)        00000
+__CFG_LVP$OFF                          (abs)        00000
+__CFG_MCLRE$ON                         (abs)        00000
+__CFG_PLLEN$ON                         (abs)        00000
+__CFG_PWRTE$OFF                        (abs)        00000
+__CFG_STVREN$ON                        (abs)        00000
+__CFG_WDTE$SWDTEN                      (abs)        00000
+__CFG_WRT$OFF                          (abs)        00000
+__Habs1                                abs1         00000
+__Hbank0                               bank0        00000
+__Hbank1                               bank1        00000
+__Hbank10                              bank10       00000
+__Hbank11                              bank11       00000
+__Hbank12                              bank12       00000
+__Hbank13                              bank13       00000
+__Hbank14                              bank14       00000
+__Hbank15                              bank15       00000
+__Hbank16                              bank16       00000
+__Hbank17                              bank17       00000
+__Hbank18                              bank18       00000
+__Hbank19                              bank19       00000
+__Hbank2                               bank2        00000
+__Hbank20                              bank20       00000
+__Hbank21                              bank21       00000
+__Hbank22                              bank22       00000
+__Hbank23                              bank23       00000
+__Hbank24                              bank24       00000
+__Hbank25                              bank25       00000
+__Hbank26                              bank26       00000
+__Hbank27                              bank27       00000
+__Hbank28                              bank28       00000
+__Hbank29                              bank29       00000
+__Hbank3                               bank3        00000
+__Hbank30                              bank30       00000
+__Hbank31                              bank31       00000
+__Hbank4                               bank4        00000
+__Hbank5                               bank5        00000
+__Hbank6                               bank6        00000
+__Hbank7                               bank7        00000
+__Hbank8                               bank8        00000
+__Hbank9                               bank9        00000
+__Hbigram                              bigram       00000
+__HbssBANK0                            bssBANK0     00000
+__HbssBANK1                            bssBANK1     00000
+__HbssBANK3                            bssBANK3     00000
+__HbssBANK4                            bssBANK4     00000
+__HbssBANK5                            bssBANK5     00000
+__HbssBANK6                            bssBANK6     00000
+__HbssCOMMON                           bssCOMMON    00000
+__Hcinit                               cinit        000A2
+__Hclrtext                             clrtext      00000
+__Hcode                                code         00000
+__Hcommon                              common       00000
+__Hconfig                              config       08009
+__HcstackBANK0                         cstackBANK0  00000
+__HcstackBANK1                         cstackBANK1  00000
+__HcstackCOMMON                        cstackCOMMON 00000
+__HdataBANK0                           dataBANK0    00000
+__HdataBANK2                           dataBANK2    00000
+__HdataCOMMON                          dataCOMMON   00000
+__Heeprom_data                         eeprom_data  00000
+__Hend_init                            end_init     0002E
+__Hfunctab                             functab      00000
+__HidataBANK0                          idataBANK0   00000
+__HidataBANK2                          idataBANK2   00000
+__HidataCOMMON                         idataCOMMON  00000
+__Hidloc                               idloc        00000
+__Hinit                                init         0002C
+__Hinittext                            inittext     00000
+__Hintentry                            intentry     0002C
+__Hmaintext                            maintext     00000
+__Hpowerup                             powerup      00000
+__Hram                                 ram          00000
+__Hreset_vec                           reset_vec    00002
+__Hsfr0                                sfr0         00000
+__Hsfr1                                sfr1         00000
+__Hsfr10                               sfr10        00000
+__Hsfr11                               sfr11        00000
+__Hsfr12                               sfr12        00000
+__Hsfr13                               sfr13        00000
+__Hsfr14                               sfr14        00000
+__Hsfr15                               sfr15        00000
+__Hsfr16                               sfr16        00000
+__Hsfr17                               sfr17        00000
+__Hsfr18                               sfr18        00000
+__Hsfr19                               sfr19        00000
+__Hsfr2                                sfr2         00000
+__Hsfr20                               sfr20        00000
+__Hsfr21                               sfr21        00000
+__Hsfr22                               sfr22        00000
+__Hsfr23                               sfr23        00000
+__Hsfr24                               sfr24        00000
+__Hsfr25                               sfr25        00000
+__Hsfr26                               sfr26        00000
+__Hsfr27                               sfr27        00000
+__Hsfr28                               sfr28        00000
+__Hsfr29                               sfr29        00000
+__Hsfr3                                sfr3         00000
+__Hsfr30                               sfr30        00000
+__Hsfr31                               sfr31        00000
+__Hsfr4                                sfr4         00000
+__Hsfr5                                sfr5         00000
+__Hsfr6                                sfr6         00000
+__Hsfr7                                sfr7         00000
+__Hsfr8                                sfr8         00000
+__Hsfr9                                sfr9         00000
+__Hspace_0                             (abs)        08009
+__Hspace_1                             (abs)        00370
+__Hspace_2                             (abs)        00000
+__Hspace_3                             (abs)        00000
+__Hstack                               stack        00000
+__Hstrings                             strings      00000
+__Hstringtext                          stringtext   00000
+__Htext                                text         00000
+__Labs1                                abs1         00000
+__Lbank0                               bank0        00000
+__Lbank1                               bank1        00000
+__Lbank10                              bank10       00000
+__Lbank11                              bank11       00000
+__Lbank12                              bank12       00000
+__Lbank13                              bank13       00000
+__Lbank14                              bank14       00000
+__Lbank15                              bank15       00000
+__Lbank16                              bank16       00000
+__Lbank17                              bank17       00000
+__Lbank18                              bank18       00000
+__Lbank19                              bank19       00000
+__Lbank2                               bank2        00000
+__Lbank20                              bank20       00000
+__Lbank21                              bank21       00000
+__Lbank22                              bank22       00000
+__Lbank23                              bank23       00000
+__Lbank24                              bank24       00000
+__Lbank25                              bank25       00000
+__Lbank26                              bank26       00000
+__Lbank27                              bank27       00000
+__Lbank28                              bank28       00000
+__Lbank29                              bank29       00000
+__Lbank3                               bank3        00000
+__Lbank30                              bank30       00000
+__Lbank31                              bank31       00000
+__Lbank4                               bank4        00000
+__Lbank5                               bank5        00000
+__Lbank6                               bank6        00000
+__Lbank7                               bank7        00000
+__Lbank8                               bank8        00000
+__Lbank9                               bank9        00000
+__Lbigram                              bigram       00000
+__LbssBANK0                            bssBANK0     00000
+__LbssBANK1                            bssBANK1     00000
+__LbssBANK3                            bssBANK3     00000
+__LbssBANK4                            bssBANK4     00000
+__LbssBANK5                            bssBANK5     00000
+__LbssBANK6                            bssBANK6     00000
+__LbssCOMMON                           bssCOMMON    00000
+__Lcinit                               cinit        0002E
+__Lclrtext                             clrtext      00000
+__Lcode                                code         00000
+__Lcommon                              common       00000
+__Lconfig                              config       08007
+__LcstackBANK0                         cstackBANK0  00000
+__LcstackBANK1                         cstackBANK1  00000
+__LcstackCOMMON                        cstackCOMMON 00000
+__LdataBANK0                           dataBANK0    00000
+__LdataBANK2                           dataBANK2    00000
+__LdataCOMMON                          dataCOMMON   00000
+__Leeprom_data                         eeprom_data  00000
+__Lend_init                            end_init     0002C
+__Lfunctab                             functab      00000
+__LidataBANK0                          idataBANK0   00000
+__LidataBANK2                          idataBANK2   00000
+__LidataCOMMON                         idataCOMMON  00000
+__Lidloc                               idloc        00000
+__Linit                                init         0002C
+__Linittext                            inittext     00000
+__Lintentry                            intentry     00004
+__Lmaintext                            maintext     00000
+__Lpowerup                             powerup      00000
+__Lram                                 ram          00000
+__Lreset_vec                           reset_vec    00000
+__Lsfr0                                sfr0         00000
+__Lsfr1                                sfr1         00000
+__Lsfr10                               sfr10        00000
+__Lsfr11                               sfr11        00000
+__Lsfr12                               sfr12        00000
+__Lsfr13                               sfr13        00000
+__Lsfr14                               sfr14        00000
+__Lsfr15                               sfr15        00000
+__Lsfr16                               sfr16        00000
+__Lsfr17                               sfr17        00000
+__Lsfr18                               sfr18        00000
+__Lsfr19                               sfr19        00000
+__Lsfr2                                sfr2         00000
+__Lsfr20                               sfr20        00000
+__Lsfr21                               sfr21        00000
+__Lsfr22                               sfr22        00000
+__Lsfr23                               sfr23        00000
+__Lsfr24                               sfr24        00000
+__Lsfr25                               sfr25        00000
+__Lsfr26                               sfr26        00000
+__Lsfr27                               sfr27        00000
+__Lsfr28                               sfr28        00000
+__Lsfr29                               sfr29        00000
+__Lsfr3                                sfr3         00000
+__Lsfr30                               sfr30        00000
+__Lsfr31                               sfr31        00000
+__Lsfr4                                sfr4         00000
+__Lsfr5                                sfr5         00000
+__Lsfr6                                sfr6         00000
+__Lsfr7                                sfr7         00000
+__Lsfr8                                sfr8         00000
+__Lsfr9                                sfr9         00000
+__Lspace_0                             (abs)        00000
+__Lspace_1                             (abs)        00000
+__Lspace_2                             (abs)        00000
+__Lspace_3                             (abs)        00000
+__Lstack                               stack        00000
+__Lstrings                             strings      00000
+__Lstringtext                          stringtext   00000
+__Ltext                                text         00000
+__S0                                   (abs)        08009
+__S1                                   (abs)        00370
+__S2                                   (abs)        00000
+__S3                                   (abs)        00000
+___int_sp                              stack        00000
+___latbits                             (abs)        00002
+___lldiv                               text9        00F55
+___lldiv@counter                       cstackBANK0  0002C
+___lldiv@dividend                      cstackBANK0  00024
+___lldiv@divisor                       cstackBANK0  00020
+___lldiv@quotient                      cstackBANK0  00028
+___lmul                                text8        00CB0
+___lmul@multiplicand                   cstackBANK0  00028
+___lmul@multiplier                     cstackBANK0  00024
+___lmul@product                        cstackBANK0  0002C
+___lwdiv                               text50       00D75
+___lwdiv@counter                       cstackBANK0  00024
+___lwdiv@dividend                      cstackBANK0  00022
+___lwdiv@divisor                       cstackBANK0  00020
+___lwdiv@quotient                      cstackBANK0  00025
+___lwmod                               text49       00C83
+___lwmod@counter                       cstackCOMMON 00075
+___lwmod@dividend                      cstackBANK0  00022
+___lwmod@divisor                       cstackBANK0  00020
+___sp                                  stack        00000
+___wmul                                text7        007E4
+___wmul@multiplicand                   cstackBANK0  00022
+___wmul@multiplier                     cstackBANK0  00020
+___wmul@product                        cstackCOMMON 00074
+__end_of_Adc_ConfigAnCh                text69       00E6E
+__end_of_Adc_GetConvResult             text61       00A73
+__end_of_Adc_GetConvSts                text60       009A4
+__end_of_Adc_InitAdcModule             text68       00DE1
+__end_of_Adc_SelectChannel             text59       00A24
+__end_of_Adc_StartConversion           text58       0099A
+__end_of_AppSm                         text44       00C5A
+__end_of_App_MainTask                  text16       00782
+__end_of_BoardReset                    text65       00997
+__end_of_CheckAckStatus                text29       009F9
+__end_of_CheckByteStatus               text28       00A03
+__end_of_CheckStopBitStatus            text27       00A0D
+__end_of_ClearRxBuffer                 text33       00A93
+__end_of_ClearTxBuffer                 text32       00AA3
+__end_of_ControlLedDirect              text63       00AC6
+__end_of_GenerateEvt                   text62       00BE6
+__end_of_GetDieTemperature             text57       00B4C
+__end_of_GetIrSensSts                  text43       009EF
+__end_of_I2cSlv_I2cDrvHandle           text34       005CA
+__end_of_I2cSlv_MainTask               text18       00AEF
+__end_of_I2c_DataReceiveSm             text19       00199
+__end_of_I2c_InitI2cModule             text31       004AD
+__end_of_I2c_SetConfig                 text30       00ADA
+__end_of_I2c_SetI2cAddress             text37       009A9
+__end_of_I2c_SetI2cAddressMask         text36       009AE
+__end_of_I2c_UpdateTxBuffer            text35       00B82
+__end_of_InitSchTimer                  text4        00B33
+__end_of_InitializeTasks               text15       00F55
+__end_of_Int0Trigger                   text42       00A55
+__end_of_LedBlinkStateMachine          text26       0053D
+__end_of_LedPulseStateMachine          text25       0071C
+__end_of_LedStateMachine               text24       00D42
+__end_of_Led_InitSeq                   text23       00F07
+__end_of_Led_MainTask                  text17       00D75
+__end_of_Led_SetLedBlinkTime           text54       00B65
+__end_of_Led_SetLedPulseTime           text53       00A83
+__end_of_Led_SetLedStatus              text64       00A63
+__end_of_LowPowerMode                  text55       00A30
+__end_of_MainInterrupt                 intentry     0002C
+__end_of_MainScheduler                 text13       00AB3
+__end_of_ManageProtocol                text46       01000
+__end_of_Mcu_ClearWdg                  text22       00994
+__end_of_Mcu_ConfigPullUps             text41       006B4
+__end_of_Mcu_EnableInterrupts          text3        0099D
+__end_of_Mcu_InitIntOsc                text2        009B5
+__end_of_Mcu_Reset                     text66       00992
+__end_of_Mcu_SetDieTempMode            text40       009CC
+__end_of_Mcu_SetDieTempSts             text39       009D4
+__end_of_Mcu_SetPullUpsSts             text38       009DC
+__end_of_Mcu_SetWdgPeriod              text21       00A18
+__end_of_Mcu_SetWdgSts                 text56       009C4
+__end_of_ReceiveEvt                    text67       00BC4
+__end_of_ScheduleTasks                 text14       0034B
+__end_of_SetLedBehavSts                text52       00E23
+__end_of_StdS_ManageStdServices        text47       00287
+__end_of_StdS_SetI2cAddress            text45       00D11
+__end_of_StringCopy                    text51       00C09
+__end_of_SystemInit                    text1        009E5
+__end_of_TaskNumber                    stringtext   0100C
+__end_of_TmrBInit                      text12       00645
+__end_of_Tmr_StartTmr                  text11       00B1C
+__end_of_Tmr_TmrBConfig                text5        00EB9
+__end_of_Tmr_TmrBIrqSet                text10       00C83
+__end_of_Tmr_TmrBPrSet                 text6        00401
+__end_of_Wdg_MainTask                  text20       00B05
+__end_of___lldiv                       text9        00FA8
+__end_of___lmul                        text8        00CE0
+__end_of___lwdiv                       text50       00DAA
+__end_of___lwmod                       text49       00CB0
+__end_of___wmul                        text7        00800
+__end_of__initialization               cinit        0009E
+__end_of_dpowers                       stringtext   0100A
+__end_of_main                          maintext     009BC
+__end_of_utoa                          text48       007E4
+__end_ofi1_GenerateEvt                 text71       00BA3
+__initialization                       cinit        0002E
+__pbssBANK0                            bssBANK0     00058
+__pbssBANK1                            bssBANK1     000A0
+__pbssBANK3                            bssBANK3     001A0
+__pbssBANK4                            bssBANK4     00220
+__pbssBANK5                            bssBANK5     002A0
+__pbssBANK6                            bssBANK6     00320
+__pbssBIGRAM                           (abs)        0239D
+__pbssCOMMON                           bssCOMMON    00076
+__pcstackBANK0                         cstackBANK0  00020
+__pcstackBANK1                         cstackBANK1  000E0
+__pcstackCOMMON                        cstackCOMMON 00070
+__pdataBANK0                           dataBANK0    0006B
+__pdataBANK2                           dataBANK2    00120
+__pdataCOMMON                          dataCOMMON   00078
+__pidataBANK0                          idataBANK0   0099D
+__pidataBANK2                          idataBANK2   00C09
+__pidataCOMMON                         idataCOMMON  00002
+__pintentry                            intentry     00004
+__pmaintext                            maintext     009B5
+__pstringtext                          stringtext   01000
+__pswtext1                             swtext1      00800
+__ptext1                               text1        009DC
+__ptext10                              text10       00C5A
+__ptext11                              text11       00B05
+__ptext12                              text12       005CA
+__ptext13                              text13       00AA3
+__ptext14                              text14       00287
+__ptext15                              text15       00F07
+__ptext16                              text16       0071C
+__ptext17                              text17       00D42
+__ptext18                              text18       00ADA
+__ptext19                              text19       000A2
+__ptext2                               text2        009AE
+__ptext20                              text20       00AEF
+__ptext21                              text21       00A0D
+__ptext22                              text22       00992
+__ptext23                              text23       00EB9
+__ptext24                              text24       00D11
+__ptext25                              text25       006B4
+__ptext26                              text26       004AD
+__ptext27                              text27       00A03
+__ptext28                              text28       009F9
+__ptext29                              text29       009EF
+__ptext3                               text3        0099A
+__ptext30                              text30       00AC6
+__ptext31                              text31       00401
+__ptext32                              text32       00A93
+__ptext33                              text33       00A83
+__ptext34                              text34       0053D
+__ptext35                              text35       00B65
+__ptext36                              text36       009A9
+__ptext37                              text37       009A4
+__ptext38                              text38       009D4
+__ptext39                              text39       009CC
+__ptext4                               text4        00B1C
+__ptext40                              text40       009C4
+__ptext41                              text41       00645
+__ptext42                              text42       00A48
+__ptext43                              text43       009E5
+__ptext44                              text44       00C31
+__ptext45                              text45       00CE0
+__ptext46                              text46       00FA8
+__ptext47                              text47       00199
+__ptext48                              text48       00782
+__ptext49                              text49       00C83
+__ptext5                               text5        00E6E
+__ptext50                              text50       00D75
+__ptext51                              text51       00BE6
+__ptext52                              text52       00DE1
+__ptext53                              text53       00A73
+__ptext54                              text54       00B4C
+__ptext55                              text55       00A24
+__ptext56                              text56       009BC
+__ptext57                              text57       00B33
+__ptext58                              text58       00997
+__ptext59                              text59       00A18
+__ptext6                               text6        0034B
+__ptext60                              text60       009A0
+__ptext61                              text61       00A63
+__ptext62                              text62       00BC4
+__ptext63                              text63       00AB3
+__ptext64                              text64       00A55
+__ptext65                              text65       00994
+__ptext66                              text66       00990
+__ptext67                              text67       00BA3
+__ptext68                              text68       00DAA
+__ptext69                              text69       00E23
+__ptext7                               text7        007E4
+__ptext71                              text71       00B82
+__ptext8                               text8        00CB0
+__ptext9                               text9        00F55
+__size_of_Adc_ConfigAnCh               (abs)        00000
+__size_of_Adc_GetConvResult            (abs)        00000
+__size_of_Adc_GetConvSts               (abs)        00000
+__size_of_Adc_InitAdcModule            (abs)        00000
+__size_of_Adc_SelectChannel            (abs)        00000
+__size_of_Adc_StartConversion          (abs)        00000
+__size_of_AppSm                        (abs)        00000
+__size_of_App_MainTask                 (abs)        00000
+__size_of_BoardReset                   (abs)        00000
+__size_of_CheckAckStatus               (abs)        00000
+__size_of_CheckByteStatus              (abs)        00000
+__size_of_CheckStopBitStatus           (abs)        00000
+__size_of_ClearRxBuffer                (abs)        00000
+__size_of_ClearTxBuffer                (abs)        00000
+__size_of_ControlLedDirect             (abs)        00000
+__size_of_GenerateEvt                  (abs)        00000
+__size_of_GetDieTemperature            (abs)        00000
+__size_of_GetIrSensSts                 (abs)        00000
+__size_of_I2cSlv_I2cDrvHandle          (abs)        00000
+__size_of_I2cSlv_MainTask              (abs)        00000
+__size_of_I2c_DataReceiveSm            (abs)        00000
+__size_of_I2c_InitI2cModule            (abs)        00000
+__size_of_I2c_SetConfig                (abs)        00000
+__size_of_I2c_SetI2cAddress            (abs)        00000
+__size_of_I2c_SetI2cAddressMask        (abs)        00000
+__size_of_I2c_UpdateTxBuffer           (abs)        00000
+__size_of_InitSchTimer                 (abs)        00000
+__size_of_InitializeTasks              (abs)        00000
+__size_of_Int0Trigger                  (abs)        00000
+__size_of_LedBlinkStateMachine         (abs)        00000
+__size_of_LedPulseStateMachine         (abs)        00000
+__size_of_LedStateMachine              (abs)        00000
+__size_of_Led_InitSeq                  (abs)        00000
+__size_of_Led_MainTask                 (abs)        00000
+__size_of_Led_SetLedBlinkTime          (abs)        00000
+__size_of_Led_SetLedPulseTime          (abs)        00000
+__size_of_Led_SetLedStatus             (abs)        00000
+__size_of_LowPowerMode                 (abs)        00000
+__size_of_MainInterrupt                (abs)        00000
+__size_of_MainScheduler                (abs)        00000
+__size_of_ManageProtocol               (abs)        00000
+__size_of_Mcu_ClearWdg                 (abs)        00000
+__size_of_Mcu_ConfigPullUps            (abs)        00000
+__size_of_Mcu_EnableInterrupts         (abs)        00000
+__size_of_Mcu_InitIntOsc               (abs)        00000
+__size_of_Mcu_Reset                    (abs)        00000
+__size_of_Mcu_SetDieTempMode           (abs)        00000
+__size_of_Mcu_SetDieTempSts            (abs)        00000
+__size_of_Mcu_SetPullUpsSts            (abs)        00000
+__size_of_Mcu_SetWdgPeriod             (abs)        00000
+__size_of_Mcu_SetWdgSts                (abs)        00000
+__size_of_ReceiveEvt                   (abs)        00000
+__size_of_ScheduleTasks                (abs)        00000
+__size_of_SetLedBehavSts               (abs)        00000
+__size_of_StdS_ManageStdServices       (abs)        00000
+__size_of_StdS_SetI2cAddress           (abs)        00000
+__size_of_StringCopy                   (abs)        00000
+__size_of_SystemInit                   (abs)        00000
+__size_of_TmrBInit                     (abs)        00000
+__size_of_Tmr_StartTmr                 (abs)        00000
+__size_of_Tmr_TmrBConfig               (abs)        00000
+__size_of_Tmr_TmrBIrqSet               (abs)        00000
+__size_of_Tmr_TmrBPrSet                (abs)        00000
+__size_of_Wdg_MainTask                 (abs)        00000
+__size_of___lldiv                      (abs)        00000
+__size_of___lmul                       (abs)        00000
+__size_of___lwdiv                      (abs)        00000
+__size_of___lwmod                      (abs)        00000
+__size_of___wmul                       (abs)        00000
+__size_of_main                         (abs)        00000
+__size_of_utoa                         (abs)        00000
+__size_ofi1_GenerateEvt                (abs)        00000
+_main                                  maintext     009B5
+_utoa                                  text48       00782
+btemp                                  (abs)        0007E
+clear_ram0                             clrtext      00A30
+end_of_initialization                  cinit        0009E
+i1GenerateEvt@Event                    cstackCOMMON 00071
+i1GenerateEvt@EventStatus              cstackCOMMON 00072
+i1_GenerateEvt                         text71       00B82
+init_ram                               inittext     00A3C
+int$flags                              (abs)        0007E
+intlevel0                              functab      00000
+intlevel1                              functab      00000
+intlevel2                              functab      00000
+intlevel3                              functab      00000
+intlevel4                              functab      00000
+intlevel5                              functab      00000
+ltemp                                  (abs)        0007E
+ltemp0                                 (abs)        0007E
+ltemp1                                 (abs)        00082
+ltemp2                                 (abs)        00086
+ltemp3                                 (abs)        00080
+reset_vec                              reset_vec    00000
+stackhi                                (abs)        0239C
+stacklo                                (abs)        02230
+start                                  init         0002C
+start_initialization                   cinit        0002E
+ttemp                                  (abs)        0007E
+ttemp0                                 (abs)        0007E
+ttemp1                                 (abs)        00081
+ttemp2                                 (abs)        00084
+ttemp3                                 (abs)        00087
+ttemp4                                 (abs)        0007F
+utoa@base                              cstackBANK0  00029
+utoa@buf                               cstackBANK0  0002F
+utoa@c                                 cstackBANK0  0002E
+utoa@v                                 cstackBANK0  0002C
+utoa@val                               cstackBANK0  00027
+wtemp                                  (abs)        0007E
+wtemp0                                 (abs)        0007E
+wtemp1                                 (abs)        00080
+wtemp2                                 (abs)        00082
+wtemp3                                 (abs)        00084
+wtemp4                                 (abs)        00086
+wtemp5                                 (abs)        00088
+wtemp6                                 (abs)        0007F
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 57 in file "../../../Framework/MercuryFwk/Source/c/00_Main/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2   12[None  ] short 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels required when called:   10
+ This function calls:
+		_MainScheduler
+		_SystemInit
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _SystemInit *****************
+ Defined at:
+		line 98 in file "../Source/c/04_App/sys_init.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_InitSchTimer
+		_Mcu_EnableInterrupts
+		_Mcu_InitIntOsc
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_InitIntOsc *****************
+ Defined at:
+		line 79 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_SystemInit
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_EnableInterrupts *****************
+ Defined at:
+		line 97 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_SystemInit
+ This function uses a non-reentrant model
+
+
+ *************** function _InitSchTimer *****************
+ Defined at:
+		line 71 in file "../Source/c/04_App/sys_init.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  TmrBConfig      6   38[BANK0 ] struct _TmrBConfigType
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       7       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Tmr_TmrBConfig
+ This function is called by:
+		_SystemInit
+ This function uses a non-reentrant model
+
+
+ *************** function _Tmr_TmrBConfig *****************
+ Defined at:
+		line 313 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c"
+ Parameters:    Size  Location     Type
+  TmrNumb         1    wreg     unsigned char 
+  TmrBConfig      1   34[BANK0 ] PTR struct _TmrBConfigTy
+		 -> InitSchTimer@TmrBConfig(6), 
+ Auto vars:     Size  Location     Type
+  TmrNumb         1   36[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_TmrBInit
+		_Tmr_StartTmr
+		_Tmr_TmrBIrqSet
+		_Tmr_TmrBPrSet
+ This function is called by:
+		_InitSchTimer
+ This function uses a non-reentrant model
+
+
+ *************** function _Tmr_TmrBPrSet *****************
+ Defined at:
+		line 225 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c"
+ Parameters:    Size  Location     Type
+  TmrNumb         1    wreg     unsigned char 
+  IntFreqHz       2   16[BANK0 ] unsigned short 
+  Prescaler       1   18[BANK0 ] unsigned char 
+  Postscaler      1   19[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  TmrNumb         1   28[BANK0 ] unsigned char 
+  Divisor         4   30[BANK0 ] unsigned long 
+  TmrBPrCfgSts    1   29[BANK0 ] enum E3370
+ Return value:  Size  Location     Type
+                  1    wreg      enum E3370
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       8       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      18       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       18 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lldiv
+		___lmul
+		___wmul
+ This function is called by:
+		_Tmr_TmrBConfig
+ This function uses a non-reentrant model
+
+
+ *************** function ___wmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2    0[BANK0 ] unsigned int 
+  multiplicand    2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  product         2    4[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBPrSet
+ This function uses a non-reentrant model
+
+
+ *************** function ___lmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c"
+ Parameters:    Size  Location     Type
+  multiplier      4    4[BANK0 ] unsigned long 
+  multiplicand    4    8[BANK0 ] unsigned long 
+ Auto vars:     Size  Location     Type
+  product         4   12[BANK0 ] unsigned long 
+ Return value:  Size  Location     Type
+                  4    4[BANK0 ] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       8       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      12       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBPrSet
+ This function uses a non-reentrant model
+
+
+ *************** function ___lldiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lldiv.c"
+ Parameters:    Size  Location     Type
+  divisor         4    0[BANK0 ] unsigned long 
+  dividend        4    4[BANK0 ] unsigned long 
+ Auto vars:     Size  Location     Type
+  quotient        4    8[BANK0 ] unsigned long 
+  counter         1   12[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  4    0[BANK0 ] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       8       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1      13       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       14 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBPrSet
+ This function uses a non-reentrant model
+
+
+ *************** function _Tmr_TmrBIrqSet *****************
+ Defined at:
+		line 182 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c"
+ Parameters:    Size  Location     Type
+  TmrNumb         1    wreg     unsigned char 
+  TmrIrqSts       1    4[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  TmrNumb         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBConfig
+ This function uses a non-reentrant model
+
+
+ *************** function _Tmr_StartTmr *****************
+ Defined at:
+		line 279 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c"
+ Parameters:    Size  Location     Type
+  TmrNumb         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  TmrNumb         1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBConfig
+ This function uses a non-reentrant model
+
+
+ *************** function _TmrBInit *****************
+ Defined at:
+		line 72 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c"
+ Parameters:    Size  Location     Type
+  TmrNumb         1    wreg     unsigned char 
+  Prescaler       1    4[COMMON] unsigned char 
+  Postscaler      1    5[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  TmrNumb         1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Tmr_TmrBConfig
+ This function uses a non-reentrant model
+
+
+ *************** function _MainScheduler *****************
+ Defined at:
+		line 79 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_sched.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_InitializeTasks
+		_ScheduleTasks
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _ScheduleTasks *****************
+ Defined at:
+		line 130 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_sched.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  ActiveTaskIn    1   55[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       6       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       6       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_App_MainTask
+		_I2cSlv_MainTask
+		_I2c_DataReceiveSm
+		_Led_MainTask
+		_Wdg_MainTask
+ This function is called by:
+		_MainScheduler
+ This function uses a non-reentrant model
+
+
+ *************** function _InitializeTasks *****************
+ Defined at:
+		line 111 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_sched.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  ActiveTaskIn    1   55[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       4       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       4       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_App_MainTask
+		_I2cSlv_MainTask
+		_I2c_DataReceiveSm
+		_Led_MainTask
+		_Wdg_MainTask
+ This function is called by:
+		_MainScheduler
+ This function uses a non-reentrant model
+
+
+ *************** function _App_MainTask *****************
+ Defined at:
+		line 238 in file "../Source/c/04_App/sb320_app.c"
+ Parameters:    Size  Location     Type
+  Options         1   27[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  WpuCh          12   37[BANK0 ] struct _WpuChType
+  AnalogChSel     8   29[BANK0 ] struct _AnalogChSelType
+  AdcConfig       6   49[BANK0 ] struct _AdcCfgType
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0      26       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      28       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       28 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_Adc_ConfigAnCh
+		_Adc_InitAdcModule
+		_AppSm
+		_GetIrSensSts
+		_Int0Trigger
+		_Mcu_ConfigPullUps
+		_Mcu_SetDieTempMode
+		_Mcu_SetDieTempSts
+		_Mcu_SetPullUpsSts
+ This function is called by:
+		_InitializeTasks
+		_ScheduleTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _Led_MainTask *****************
+ Defined at:
+		line 185 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+  Options         1   27[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_LedStateMachine
+		_Led_InitSeq
+		_SetLedBehavSts
+ This function is called by:
+		_InitializeTasks
+		_ScheduleTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _I2cSlv_MainTask *****************
+ Defined at:
+		line 109 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/01_Pml/01_SlvI2c/i2c_slv.c"
+ Parameters:    Size  Location     Type
+  Options         1   27[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_I2cSlv_I2cDrvHandle
+		_I2c_InitI2cModule
+		_I2c_SetConfig
+ This function is called by:
+		_InitializeTasks
+		_ScheduleTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_DataReceiveSm *****************
+ Defined at:
+		line 298 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+  Options         1   27[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  Index           1   35[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       7       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       9       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_CheckAckStatus
+		_CheckByteStatus
+		_CheckStopBitStatus
+		_ClearRxBuffer
+		_ClearTxBuffer
+		_GenerateEvt
+		_Mcu_Reset
+		_ReceiveEvt
+ This function is called by:
+		_InitializeTasks
+		_ScheduleTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _Wdg_MainTask *****************
+ Defined at:
+		line 73 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/wdg.c"
+ Parameters:    Size  Location     Type
+  Options         1   27[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Mcu_ClearWdg
+		_Mcu_SetWdgPeriod
+		_Mcu_SetWdgSts
+ This function is called by:
+		_InitializeTasks
+		_ScheduleTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_SetWdgPeriod *****************
+ Defined at:
+		line 223 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  WdgPeriod       1    wreg     enum E3392
+ Auto vars:     Size  Location     Type
+  WdgPeriod       1    5[COMMON] enum E3392
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Wdg_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_ClearWdg *****************
+ Defined at:
+		line 251 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Wdg_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Led_InitSeq *****************
+ Defined at:
+		line 128 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Led_SetLedStatus
+ This function is called by:
+		_Led_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _LedStateMachine *****************
+ Defined at:
+		line 82 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+  Led             1    wreg     unsigned char 
+  LedSts          1   11[BANK0 ] PTR enum E3739
+		 -> Led1Sts(1), 
+  LedBlink        1   12[BANK0 ] PTR struct _LedBlinkType
+		 -> Led1Blink(9), 
+  LedPulse        1   13[BANK0 ] PTR struct _LedPulseType
+		 -> Led1Pulse(6), 
+ Auto vars:     Size  Location     Type
+  Led             1   16[BANK0 ] unsigned char 
+  LedOutSts       1   17[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       7       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_LedBlinkStateMachine
+		_LedPulseStateMachine
+ This function is called by:
+		_Led_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _LedPulseStateMachine *****************
+ Defined at:
+		line 131 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/led_drv.c"
+ Parameters:    Size  Location     Type
+  LedPulse        1    wreg     PTR struct _LedPulseType
+		 -> Led1Pulse(6), 
+  Led             1    7[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  LedPulse        1   10[BANK0 ] PTR struct _LedPulseType
+		 -> Led1Pulse(6), 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Led_SetLedStatus
+		___lwdiv
+ This function is called by:
+		_LedStateMachine
+ This function uses a non-reentrant model
+
+
+ *************** function _LedBlinkStateMachine *****************
+ Defined at:
+		line 74 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/led_drv.c"
+ Parameters:    Size  Location     Type
+  LedBlink        1    wreg     PTR struct _LedBlinkType
+		 -> Led1Blink(9), 
+ Auto vars:     Size  Location     Type
+  LedBlink        1    5[COMMON] PTR struct _LedBlinkType
+		 -> Led1Blink(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lwdiv
+ This function is called by:
+		_LedStateMachine
+ This function uses a non-reentrant model
+
+
+ *************** function _CheckStopBitStatus *****************
+ Defined at:
+		line 151 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+ This function uses a non-reentrant model
+
+
+ *************** function _CheckByteStatus *****************
+ Defined at:
+		line 137 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+ This function uses a non-reentrant model
+
+
+ *************** function _CheckAckStatus *****************
+ Defined at:
+		line 109 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_SetConfig *****************
+ Defined at:
+		line 82 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/01_Pml/01_SlvI2c/i2c_slv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2cSlv_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_InitI2cModule *****************
+ Defined at:
+		line 207 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+  I2cConfig       1    wreg     PTR struct _I2cConfig
+		 -> I2cConfig(11), 
+ Auto vars:     Size  Location     Type
+  I2cConfig       1    2[BANK0 ] PTR struct _I2cConfig
+		 -> I2cConfig(11), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ClearRxBuffer
+		_ClearTxBuffer
+ This function is called by:
+		_I2cSlv_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _ClearTxBuffer *****************
+ Defined at:
+		line 184 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  Index           1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_InitI2cModule
+		_I2c_DataReceiveSm
+ This function uses a non-reentrant model
+
+
+ *************** function _ClearRxBuffer *****************
+ Defined at:
+		line 165 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  Index           1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_InitI2cModule
+		_I2c_DataReceiveSm
+ This function uses a non-reentrant model
+
+
+ *************** function _I2cSlv_I2cDrvHandle *****************
+ Defined at:
+		line 141 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/01_Pml/01_SlvI2c/i2c_slv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  Index           1    9[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       5       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_GenerateEvt
+		_I2c_SetI2cAddress
+		_I2c_SetI2cAddressMask
+		_I2c_UpdateTxBuffer
+		_Led_SetLedStatus
+		_ReceiveEvt
+ This function is called by:
+		_I2cSlv_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_UpdateTxBuffer *****************
+ Defined at:
+		line 279 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+  DataBuffer      1    wreg     PTR unsigned char 
+		 -> RepBuffer(80), 
+  Length          1    4[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  DataBuffer      1    2[BANK0 ] PTR unsigned char 
+		 -> RepBuffer(80), 
+  Index           1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2cSlv_I2cDrvHandle
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_SetI2cAddressMask *****************
+ Defined at:
+		line 264 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+  SlaveAddress    1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  SlaveAddress    1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2cSlv_I2cDrvHandle
+ This function uses a non-reentrant model
+
+
+ *************** function _I2c_SetI2cAddress *****************
+ Defined at:
+		line 250 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c"
+ Parameters:    Size  Location     Type
+  SlaveAddress    1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  SlaveAddress    1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2cSlv_I2cDrvHandle
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_SetPullUpsSts *****************
+ Defined at:
+		line 167 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  PuSts           1    wreg     enum E3374
+ Auto vars:     Size  Location     Type
+  PuSts           1    4[COMMON] enum E3374
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_SetDieTempSts *****************
+ Defined at:
+		line 265 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  DieTempSts      1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  DieTempSts      1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_SetDieTempMode *****************
+ Defined at:
+		line 279 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  DieTempMode     1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  DieTempMode     1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_ConfigPullUps *****************
+ Defined at:
+		line 181 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  WpuCh           1    wreg     PTR struct _WpuChType
+		 -> App_MainTask@WpuCh(12), 
+ Auto vars:     Size  Location     Type
+  WpuCh           1    4[COMMON] PTR struct _WpuChType
+		 -> App_MainTask@WpuCh(12), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Int0Trigger *****************
+ Defined at:
+		line 166 in file "../Source/c/04_App/sb320_app.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _GetIrSensSts *****************
+ Defined at:
+		line 105 in file "../Source/c/04_App/sb320_app.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _AppSm *****************
+ Defined at:
+		line 189 in file "../Source/c/04_App/sb320_app.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_GenerateEvt
+		_ManageProtocol
+		_StdS_SetI2cAddress
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _StdS_SetI2cAddress *****************
+ Defined at:
+		line 317 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_AppSm
+ This function uses a non-reentrant model
+
+
+ *************** function _ManageProtocol *****************
+ Defined at:
+		line 120 in file "../Source/c/04_App/sb320_app.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_GenerateEvt
+		_ReceiveEvt
+		_StdS_ManageStdServices
+		_utoa
+ This function is called by:
+		_AppSm
+ This function uses a non-reentrant model
+
+
+ *************** function _StdS_ManageStdServices *****************
+ Defined at:
+		line 212 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  DieTempStr      4   18[BANK0 ] unsigned char [4]
+  DieTemp         2   22[BANK0 ] unsigned short 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       8       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_BoardReset
+		_ControlLedDirect
+		_GenerateEvt
+		_GetDieTemperature
+		_LowPowerMode
+		_SetLedBehavSts
+		_StringCopy
+		_utoa
+ This function is called by:
+		_ManageProtocol
+ This function uses a non-reentrant model
+
+
+ *************** function _utoa *****************
+ Defined at:
+		line 17 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\itoa.c"
+ Parameters:    Size  Location     Type
+  buf             1    wreg     PTR unsigned char 
+		 -> IrSens2Str(1), IrSens1Str(1), StdS_ManageStdServices@DieTempStr(4), 
+  val             2    7[BANK0 ] unsigned int 
+  base            2    9[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  buf             1   15[BANK0 ] PTR unsigned char 
+		 -> IrSens2Str(1), IrSens1Str(1), StdS_ManageStdServices@DieTempStr(4), 
+  v               2   12[BANK0 ] unsigned int 
+  c               1   14[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      PTR unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       9       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lwdiv
+		___lwmod
+ This function is called by:
+		_StdS_ManageStdServices
+		_ManageProtocol
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwmod *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] unsigned int 
+  dividend        2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  counter         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_utoa
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] unsigned int 
+  dividend        2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2    5[BANK0 ] unsigned int 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       7       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LedBlinkStateMachine
+		_LedPulseStateMachine
+		_utoa
+ This function uses a non-reentrant model
+
+
+ *************** function _StringCopy *****************
+ Defined at:
+		line 104 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/sf.c"
+ Parameters:    Size  Location     Type
+  SourceStr       2    0[BANK0 ] PTR unsigned char 
+		 -> StdS_ManageStdServices@DieTempStr(4), STR_5(9), STR_4(9), STR_3(6), 
+		 -> STR_2(5), 
+  DestStr         1    2[BANK0 ] PTR unsigned char 
+		 -> RepBuffer(80), 
+  Len             1    3[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  Index           1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       8       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _SetLedBehavSts *****************
+ Defined at:
+		line 76 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+  LedBehav        1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  LedBehav        1    5[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Led_SetLedBlinkTime
+		_Led_SetLedPulseTime
+		_Led_SetLedStatus
+ This function is called by:
+		_Led_MainTask
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _Led_SetLedPulseTime *****************
+ Defined at:
+		line 269 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+  Led             1    wreg     unsigned char 
+  PulseTimeMs     2    4[COMMON] unsigned short 
+ Auto vars:     Size  Location     Type
+  Led             1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_SetLedBehavSts
+ This function uses a non-reentrant model
+
+
+ *************** function _Led_SetLedBlinkTime *****************
+ Defined at:
+		line 245 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+  Led             1    wreg     unsigned char 
+  OnTimeMs        2    0[BANK0 ] unsigned short 
+  OffTimeMs       2    2[BANK0 ] unsigned short 
+ Auto vars:     Size  Location     Type
+  Led             1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_SetLedBehavSts
+ This function uses a non-reentrant model
+
+
+ *************** function _LowPowerMode *****************
+ Defined at:
+		line 161 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Mcu_SetWdgSts
+ This function is called by:
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_SetWdgSts *****************
+ Defined at:
+		line 237 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+  WdgSts          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  WdgSts          1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LowPowerMode
+		_Wdg_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _GetDieTemperature *****************
+ Defined at:
+		line 188 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  DieTempRes      2    5[BANK0 ] unsigned short 
+ Return value:  Size  Location     Type
+                  2    3[BANK0 ] unsigned short 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Adc_GetConvResult
+		_Adc_GetConvSts
+		_Adc_SelectChannel
+		_Adc_StartConversion
+ This function is called by:
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_StartConversion *****************
+ Defined at:
+		line 144 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_GetDieTemperature
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_SelectChannel *****************
+ Defined at:
+		line 130 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+  SelCh           1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  SelCh           1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_GetDieTemperature
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_GetConvSts *****************
+ Defined at:
+		line 158 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      enum E3374
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_GetDieTemperature
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_GetConvResult *****************
+ Defined at:
+		line 172 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  AdcResult       2    1[BANK0 ] unsigned short 
+ Return value:  Size  Location     Type
+                  2    4[COMMON] unsigned short 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       3       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_GetDieTemperature
+ This function uses a non-reentrant model
+
+
+ *************** function _GenerateEvt *****************
+ Defined at:
+		line 73 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_ser.c"
+ Parameters:    Size  Location     Type
+  Event           1    wreg     PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+ Auto vars:     Size  Location     Type
+  Event           1    1[BANK0 ] PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+  EventStatus     1    0[BANK0 ] enum E3352
+ Return value:  Size  Location     Type
+                  1    wreg      enum E3348
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+		_I2cSlv_I2cDrvHandle
+		_StdS_ManageStdServices
+		_ManageProtocol
+		_AppSm
+ This function uses a non-reentrant model
+
+
+ *************** function _ControlLedDirect *****************
+ Defined at:
+		line 122 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Led_SetLedStatus
+ This function is called by:
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _Led_SetLedStatus *****************
+ Defined at:
+		line 221 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c"
+ Parameters:    Size  Location     Type
+  Led             1    wreg     unsigned char 
+  LedSts          1    4[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Led             1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LedPulseStateMachine
+		_I2cSlv_I2cDrvHandle
+		_Led_InitSeq
+		_SetLedBehavSts
+		_ControlLedDirect
+ This function uses a non-reentrant model
+
+
+ *************** function _BoardReset *****************
+ Defined at:
+		line 147 in file "../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Mcu_Reset
+ This function is called by:
+		_StdS_ManageStdServices
+ This function uses a non-reentrant model
+
+
+ *************** function _Mcu_Reset *****************
+ Defined at:
+		line 293 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+		_BoardReset
+ This function uses a non-reentrant model
+
+
+ *************** function _ReceiveEvt *****************
+ Defined at:
+		line 103 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_ser.c"
+ Parameters:    Size  Location     Type
+  Event           1    wreg     PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+ Auto vars:     Size  Location     Type
+  Event           1    5[COMMON] PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+  EventStatus     1    4[COMMON] enum E3352
+ Return value:  Size  Location     Type
+                  1    wreg      enum E3348
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_I2c_DataReceiveSm
+		_I2cSlv_I2cDrvHandle
+		_ManageProtocol
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_InitAdcModule *****************
+ Defined at:
+		line 107 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+  AdcConfig       1    wreg     PTR struct _AdcCfgType
+		 -> App_MainTask@AdcConfig(6), 
+ Auto vars:     Size  Location     Type
+  AdcConfig       1    4[COMMON] PTR struct _AdcCfgType
+		 -> App_MainTask@AdcConfig(6), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _Adc_ConfigAnCh *****************
+ Defined at:
+		line 73 in file "../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c"
+ Parameters:    Size  Location     Type
+  AnChSel         1    wreg     PTR struct _AnalogChSelT
+		 -> App_MainTask@AnalogChSel(8), 
+ Auto vars:     Size  Location     Type
+  AnChSel         1    4[COMMON] PTR struct _AnalogChSelT
+		 -> App_MainTask@AnalogChSel(8), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_App_MainTask
+ This function uses a non-reentrant model
+
+
+ *************** function _MainInterrupt *****************
+ Defined at:
+		line 50 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/interrupts.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		i1_GenerateEvt
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function i1_GenerateEvt *****************
+ Defined at:
+		line 73 in file "../../../Framework/MercuryFwk/Source/c/02_Osl/os_ser.c"
+ Parameters:    Size  Location     Type
+  Event           1    wreg     PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+ Auto vars:     Size  Location     Type
+  Event           1    1[COMMON] PTR struct _EventStructu
+		 -> I2cReplyPacketReady(2), I2cWriteRequest(2), I2cSetAddress(2), I2cNewTxNotification(2), 
+		 -> I2cNewPacketNotification(2), 
+  GenerateEvt     1    2[COMMON] enum E3352
+ Return value:  Size  Location     Type
+                  1    wreg      enum E3348
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_MainInterrupt
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+../Source/c/04_App/sys_init.c
+		_SystemInit    		CODE           	09DC	0000	10
+		_InitSchTimer  		CODE           	0B1C	0000	24
+
+../Source/c/04_App/sys_init.c estimated size: 34
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c
+		_Mcu_InitIntOsc		CODE           	09AE	0000	8
+		_Mcu_SetWdgPeriod		CODE           	0A0D	0000	12
+		_Mcu_SetWdgSts 		CODE           	09BC	0000	9
+		_Mcu_Reset     		CODE           	0990	0000	3
+		_Mcu_SetDieTempMode		CODE           	09C4	0000	9
+		_Mcu_EnableInterrupts		CODE           	099A	0000	4
+		_Mcu_SetDieTempSts		CODE           	09CC	0000	9
+		_Mcu_SetPullUpsSts		CODE           	09D4	0000	9
+		_Mcu_ClearWdg  		CODE           	0992	0000	3
+		_Mcu_ConfigPullUps		CODE           	0645	0000	112
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c estimated size: 178
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwmod.c
+		___lwmod       		CODE           	0C83	0000	46
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwmod.c estimated size: 46
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/interrupts.c
+		_MainInterrupt 		CODE           	0004	0000	41
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/interrupts.c estimated size: 41
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul16.c
+		___wmul        		CODE           	07E4	0000	29
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul16.c estimated size: 29
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c
+		_Adc_InitAdcModule		CODE           	0DAA	0000	56
+		_Adc_GetConvSts		CODE           	09A0	0000	5
+		_Adc_GetConvResult		CODE           	0A63	0000	17
+		_Adc_StartConversion		CODE           	0997	0000	4
+		_Adc_SelectChannel		CODE           	0A18	0000	13
+		_Adc_ConfigAnCh		CODE           	0E23	0000	76
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/adc_drv.c estimated size: 171
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c
+		_LedStateMachine		CODE           	0D11	0000	50
+		_Led_SetLedPulseTime		CODE           	0A73	0000	17
+		_Led_SetLedBlinkTime		CODE           	0B4C	0000	26
+		_Led_InitSeq   		CODE           	0EB9	0000	79
+		_Led_MainTask  		CODE           	0D42	0000	52
+		_Led_SetLedStatus		CODE           	0A55	0000	15
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/led.c estimated size: 239
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/sf.c
+		_StringCopy    		CODE           	0BE6	0000	36
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/sf.c estimated size: 36
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwdiv.c
+		___lwdiv       		CODE           	0D75	0000	54
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwdiv.c estimated size: 54
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+		___lmul        		CODE           	0CB0	0000	49
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c estimated size: 49
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lldiv.c
+		___lldiv       		CODE           	0F55	0000	84
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lldiv.c estimated size: 84
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\itoa.c
+		_utoa          		CODE           	0782	0000	99
+
+C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\itoa.c estimated size: 99
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/wdg.c
+		_Wdg_MainTask  		CODE           	0AEF	0000	23
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/wdg.c estimated size: 23
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/os_ser.c
+		_ReceiveEvt    		CODE           	0BA3	0000	34
+		_GenerateEvt   		CODE           	0BC4	0000	35
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/os_ser.c estimated size: 69
+
+shared
+		_dpowers       		STRCODE        	0000	0000	0
+		__initialization		CODE           	002E	0000	113
+		i1_GenerateEvt 		CODE           	0B82	0000	34
+		_TaskNumber    		STRCODE        	100A	0000	3
+
+shared estimated size: 150
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c
+		_Tmr_TmrBConfig		CODE           	0E6E	0000	76
+		_Tmr_TmrBIrqSet		CODE           	0C5A	0000	42
+		_Tmr_StartTmr  		CODE           	0B05	0000	24
+		_TmrBInit      		CODE           	05CA	0000	124
+		_Tmr_TmrBPrSet 		CODE           	034B	0000	183
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c estimated size: 449
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/01_Pml/01_SlvI2c/i2c_slv.c
+		_I2c_SetConfig 		CODE           	0AC6	0000	21
+		_I2cSlv_MainTask		CODE           	0ADA	0000	22
+		_I2cSlv_I2cDrvHandle		CODE           	053D	0000	142
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/01_Pml/01_SlvI2c/i2c_slv.c estimated size: 185
+
+../../../Framework/MercuryFwk/Source/c/00_Main/main.c
+		_main          		CODE           	09B5	0000	8
+
+../../../Framework/MercuryFwk/Source/c/00_Main/main.c estimated size: 8
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/os_sched.c
+		_InitializeTasks		CODE           	0F07	0000	79
+		_ScheduleTasks 		CODE           	0287	0000	197
+		_MainScheduler 		CODE           	0AA3	0000	17
+
+../../../Framework/MercuryFwk/Source/c/02_Osl/os_sched.c estimated size: 293
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c
+		_CheckAckStatus		CODE           	09EF	0000	11
+		_I2c_InitI2cModule		CODE           	0401	0000	173
+		_ClearRxBuffer 		CODE           	0A83	0000	17
+		_I2c_DataReceiveSm		CODE           	00A2	0000	248
+		_CheckStopBitStatus		CODE           	0A03	0000	11
+		_I2c_SetI2cAddress		CODE           	09A4	0000	6
+		_I2c_SetI2cAddressMask		CODE           	09A9	0000	6
+		_CheckByteStatus		CODE           	09F9	0000	11
+		_I2c_UpdateTxBuffer		CODE           	0B65	0000	30
+		_ClearTxBuffer 		CODE           	0A93	0000	17
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/i2c_slv_drv.c estimated size: 530
+
+../Source/c/04_App/sb320_app.c
+		_App_MainTask  		CODE           	071C	0000	103
+		_Int0Trigger   		CODE           	0A48	0000	14
+		_ManageProtocol		CODE           	0FA8	0000	89
+		_AppSm         		CODE           	0C31	0000	42
+		_GetIrSensSts  		CODE           	09E5	0000	11
+
+../Source/c/04_App/sb320_app.c estimated size: 259
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/led_drv.c
+		_LedBlinkStateMachine		CODE           	04AD	0000	145
+		_LedPulseStateMachine		CODE           	06B4	0000	105
+
+../../../Framework/MercuryFwk/Source/c/01_Hal/02_Drv/led_drv.c estimated size: 250
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c
+		_BoardReset    		CODE           	0994	0000	4
+		_StdS_SetI2cAddress		CODE           	0CE0	0000	50
+		_SetLedBehavSts		CODE           	0DE1	0000	67
+		_ControlLedDirect		CODE           	0AB3	0000	20
+		_StdS_ManageStdServices		CODE           	0199	0000	239
+		_GetDieTemperature		CODE           	0B33	0000	26
+		_LowPowerMode  		CODE           	0A24	0000	13
+
+../../../Framework/MercuryFwk/Source/c/03_Sml/02_Ssl/std_ser.c estimated size: 419
+

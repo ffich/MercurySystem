@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB330_TempHum.X.production.hex" "..\..\01_FwImages\"

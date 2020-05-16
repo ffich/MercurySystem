@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="01_Hal" displayName="01_Hal" projectFiles="true">
+        <logicalFolder name="01_Sys" displayName="01_Sys" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/config_bits.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/hal.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/hw_profile.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/irq.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/sys_init.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/typedefs.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/01_Sys/fwk_version.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="02_Drv" displayName="02_Drv" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/i2c_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/mcu_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/mdm_bt_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/mdm_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/pm_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/rtcc_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/tmr_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/uart_drv.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/01_Hal/02_Drv/mdm_wifi_drv.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="02_Osl" displayName="02_Osl" projectFiles="true">
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/os_alarms.h</itemPath>
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/os_sched.h</itemPath>
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/os_sched_tbl.h</itemPath>
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/os_ser.h</itemPath>
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/os_timers.h</itemPath>
+        <itemPath>../../../MercuryFwk/Source/h/02_Osl/mod_imp.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="03_Sml" displayName="03_Sml" projectFiles="true">
+        <logicalFolder name="01_Pml" displayName="01_Pml" projectFiles="true">
+          <logicalFolder name="01_Mdm" displayName="01_Mdm" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_bt.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_gsm_gprs.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_wifi.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_wifi_cmd.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_wifi_http.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_gsm_gprs_http.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/01_Mdm/mdm_bt_cmd.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="02_SlvI2c" displayName="02_SlvI2c" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/02_SlvI2c/i2c_slv.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="03_SlvSer" displayName="03_SlvSer" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="04_Usb" displayName="04_Usb" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/hid_devices.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/system_config.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_ch9.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_common.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_config.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_device.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_device_cdc.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_device_hid.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_device_local.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_device_mgr.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_hal.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_hal_local.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_hal_pic18.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_pic18_local.h</itemPath>
+            <itemPath>../../../MercuryFwk/Source/h/03_Sml/01_Pml/04_Usb/usb_struct_queue.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="02_Ssl" displayName="02_Ssl" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/led.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/rtcm.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/sf.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/sysm.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/term.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/ext_int.h</itemPath>
+          <itemPath>../../../MercuryFwk/Source/h/03_Sml/02_Ssl/wdg.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="04_App" displayName="04_App" projectFiles="true">
+        <itemPath>../Source/h/04_App/app.h</itemPath>
+        <itemPath>../Source/h/04_App/sys_cfg.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="00_Main" displayName="00_Main" projectFiles="true">
+        <itemPath>../../../MercuryFwk/Source/c/00_Main/main.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="01_Hal" displayName="01_Hal" projectFiles="true">
+        <logicalFolder name="01_Sys" displayName="01_Sys" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/01_Sys/irq.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/01_Sys/sys_init.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="02_Drv" displayName="02_Drv" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/i2c_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/mcu_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/mdm_bt_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/mdm_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/pm_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/rtcc_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/tmr_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/uart_drv.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/01_Hal/02_Drv/mdm_wifi_drv.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="02_Osl" displayName="02_Osl" projectFiles="true">
+        <itemPath>../../../MercuryFwk/Source/c/02_Osl/os_alarms.c</itemPath>
+        <itemPath>../../../MercuryFwk/Source/c/02_Osl/os_sched.c</itemPath>
+        <itemPath>../../../MercuryFwk/Source/c/02_Osl/os_sched_tbl.c</itemPath>
+        <itemPath>../../../MercuryFwk/Source/c/02_Osl/os_ser.c</itemPath>
+        <itemPath>../../../MercuryFwk/Source/c/02_Osl/os_timers.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="03_Sml" displayName="03_Sml" projectFiles="true">
+        <logicalFolder name="01_Pml" displayName="01_Pml" projectFiles="true">
+          <logicalFolder name="01_Mdm" displayName="01_Mdm" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_bt.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_gsm_gprs.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_wifi.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_gsm_gprs_http.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_wifi_cmd.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_wifi_http.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/01_Mdm/mdm_bt_cmd.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="02_SlvI2c" displayName="02_SlvI2c" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/02_SlvI2c/i2c_slv.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="03_SlvSer" displayName="03_SlvSer" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="04_Usb" displayName="04_Usb" projectFiles="true">
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/hid_devices.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/hid_report.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/usb_descriptors.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/usb_device.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/usb_device_cdc.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/usb_device_hid.c</itemPath>
+            <itemPath>../../../MercuryFwk/Source/c/03_Sml/01_Pml/04_Usb/usb_device_mgr.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="02_Ssl" displayName="02_Ssl" projectFiles="true">
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/led.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/rtcm.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/sf.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/sysm.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/term.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/ext_int.c</itemPath>
+          <itemPath>../../../MercuryFwk/Source/c/03_Sml/02_Ssl/wdg.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="04_App" displayName="04_App" projectFiles="true">
+        <itemPath>../Source/c/04_App/app.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../MercuryFwk/Source/h/01_Hal</Elem>
+    <Elem>../../../MercuryFwk/Source/h/02_Osl</Elem>
+    <Elem>../../../MercuryFwk/Source/h/03_Sml</Elem>
+    <Elem>../../../MercuryFwk/Source/c/00_Main</Elem>
+    <Elem>../../../MercuryFwk/Source/c/01_Hal</Elem>
+    <Elem>../../../MercuryFwk/Source/c/02_Osl</Elem>
+    <Elem>../../../MercuryFwk/Source/c/03_Sml</Elem>
+    <Elem>../Source/h/04_App</Elem>
+    <Elem>../Source/c/04_App</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Standalone" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F46J50</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>ICD4Tool</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>1.45</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="additional-warnings" value="true"/>
+        <property key="asmlist" value="true"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="define-macros" value=""/>
+        <property key="disable-optimizations" value="false"/>
+        <property key="extra-include-directories"
+                  value="..\Source\h\04_App;..\..\..\MercuryFwk\Source\h\01_Hal\01_Sys;..\..\..\MercuryFwk\Source\h\01_Hal\02_Drv;..\..\..\MercuryFwk\Source\h\02_Osl;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\01_Mdm;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\02_SlvI2c;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\03_SlvSer;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\04_Usb;..\..\..\MercuryFwk\Source\h\03_Sml\02_Ssl"/>
+        <property key="favor-optimization-for" value="-speed,+space"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="identifier-length" value="255"/>
+        <property key="local-generation" value="false"/>
+        <property key="operation-mode" value="free"/>
+        <property key="opt-xc8-compiler-strict_ansi" value="false"/>
+        <property key="optimization-assembler" value="true"/>
+        <property key="optimization-assembler-files" value="true"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-invariant-enable" value="false"/>
+        <property key="optimization-invariant-value" value="16"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="optimization-stable-enable" value="false"/>
+        <property key="pack-struct" value="true"/>
+        <property key="preprocess-assembler" value="true"/>
+        <property key="short-enums" value="true"/>
+        <property key="undefine-macros" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="0"/>
+        <property key="what-to-do" value="ignore"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="additional-options-checksum" value=""/>
+        <property key="additional-options-code-offset" value=""/>
+        <property key="additional-options-command-line" value=""/>
+        <property key="additional-options-errata" value=""/>
+        <property key="additional-options-extend-address" value="false"/>
+        <property key="additional-options-trace-type" value=""/>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="backup-reset-condition-flags" value="false"/>
+        <property key="calibrate-oscillator" value="false"/>
+        <property key="calibrate-oscillator-value" value="0x3400"/>
+        <property key="clear-bss" value="true"/>
+        <property key="code-model-external" value="wordwrite"/>
+        <property key="code-model-rom" value=""/>
+        <property key="create-html-files" value="false"/>
+        <property key="data-model-ram" value=""/>
+        <property key="data-model-size-of-double" value="32"/>
+        <property key="data-model-size-of-double-gcc" value="no-short-double"/>
+        <property key="data-model-size-of-float" value="32"/>
+        <property key="data-model-size-of-float-gcc" value="no-short-float"/>
+        <property key="display-class-usage" value="false"/>
+        <property key="display-hex-usage" value="false"/>
+        <property key="display-overall-usage" value="true"/>
+        <property key="display-psect-usage" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="format-hex-file-for-download" value="false"/>
+        <property key="initialize-data" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="keep-generated-startup.as" value="false"/>
+        <property key="link-in-c-library" value="true"/>
+        <property key="link-in-c-library-gcc" value=""/>
+        <property key="link-in-peripheral-library" value="false"/>
+        <property key="managed-stack" value="false"/>
+        <property key="opt-xc8-linker-file" value="false"/>
+        <property key="opt-xc8-linker-link_startup" value="false"/>
+        <property key="opt-xc8-linker-serial" value=""/>
+        <property key="program-the-device-with-default-config-words" value="true"/>
+        <property key="remove-unused-sections" value="true"/>
+      </HI-TECH-LINK>
+      <ICD4Tool>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-fff7"/>
+      </ICD4Tool>
+      <PICkit3PlatformTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="Freeze Peripherals" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-fff7"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${programoptions.preservedataflash.ranges}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+      </XC8-CO>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="gcc-opt-driver-new" value="false"/>
+        <property key="gcc-opt-std" value="--std=c89"/>
+        <property key="gcc-output-file-format" value="dwarf-3"/>
+        <property key="omit-pack-options" value="false"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+        <property key="user-pack-device-support" value=""/>
+      </XC8-config-global>
+    </conf>
+    <conf name="Bootloader" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F46J50</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>1.45</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="additional-warnings" value="true"/>
+        <property key="asmlist" value="true"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="define-macros" value=""/>
+        <property key="disable-optimizations" value="false"/>
+        <property key="extra-include-directories"
+                  value="..\Source\h\04_App;..\..\..\MercuryFwk\Source\h\01_Hal\01_Sys;..\..\..\MercuryFwk\Source\h\01_Hal\02_Drv;..\..\..\MercuryFwk\Source\h\02_Osl;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\01_Mdm;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\02_SlvI2c;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\03_SlvSer;..\..\..\MercuryFwk\Source\h\03_Sml\01_Pml\04_Usb;..\..\..\MercuryFwk\Source\h\03_Sml\02_Ssl"/>
+        <property key="favor-optimization-for" value="-speed,+space"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="identifier-length" value="255"/>
+        <property key="local-generation" value="false"/>
+        <property key="operation-mode" value="free"/>
+        <property key="opt-xc8-compiler-strict_ansi" value="false"/>
+        <property key="optimization-assembler" value="true"/>
+        <property key="optimization-assembler-files" value="true"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-invariant-enable" value="false"/>
+        <property key="optimization-invariant-value" value="16"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="optimization-stable-enable" value="false"/>
+        <property key="pack-struct" value="true"/>
+        <property key="preprocess-assembler" value="true"/>
+        <property key="short-enums" value="true"/>
+        <property key="undefine-macros" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="0"/>
+        <property key="what-to-do" value="ignore"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="additional-options-checksum" value=""/>
+        <property key="additional-options-code-offset" value="0x2000"/>
+        <property key="additional-options-command-line" value=""/>
+        <property key="additional-options-errata" value=""/>
+        <property key="additional-options-extend-address" value="false"/>
+        <property key="additional-options-trace-type" value=""/>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="backup-reset-condition-flags" value="false"/>
+        <property key="calibrate-oscillator" value="false"/>
+        <property key="calibrate-oscillator-value" value="0x3400"/>
+        <property key="clear-bss" value="true"/>
+        <property key="code-model-external" value="wordwrite"/>
+        <property key="code-model-rom"
+                  value="default,-0-1FFF,-2006-2007,-2016-2017,-EFFF-FFFF"/>
+        <property key="create-html-files" value="false"/>
+        <property key="data-model-ram" value=""/>
+        <property key="data-model-size-of-double" value="32"/>
+        <property key="data-model-size-of-double-gcc" value="no-short-double"/>
+        <property key="data-model-size-of-float" value="32"/>
+        <property key="data-model-size-of-float-gcc" value="no-short-float"/>
+        <property key="display-class-usage" value="false"/>
+        <property key="display-hex-usage" value="false"/>
+        <property key="display-overall-usage" value="true"/>
+        <property key="display-psect-usage" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="format-hex-file-for-download" value="true"/>
+        <property key="initialize-data" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="keep-generated-startup.as" value="false"/>
+        <property key="link-in-c-library" value="true"/>
+        <property key="link-in-c-library-gcc" value=""/>
+        <property key="link-in-peripheral-library" value="false"/>
+        <property key="managed-stack" value="false"/>
+        <property key="opt-xc8-linker-file" value="false"/>
+        <property key="opt-xc8-linker-link_startup" value="false"/>
+        <property key="opt-xc8-linker-serial" value=""/>
+        <property key="program-the-device-with-default-config-words" value="true"/>
+        <property key="remove-unused-sections" value="true"/>
+      </HI-TECH-LINK>
+      <PICkit3PlatformTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="Freeze Peripherals" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-fff7"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${programoptions.preservedataflash.ranges}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="gcc-opt-driver-new" value="false"/>
+        <property key="gcc-opt-std" value="--std=c89"/>
+        <property key="gcc-output-file-format" value="dwarf-3"/>
+        <property key="omit-pack-options" value="false"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+        <property key="user-pack-device-support" value=""/>
+      </XC8-config-global>
+    </conf>
+  </confs>
+</configurationDescriptor>

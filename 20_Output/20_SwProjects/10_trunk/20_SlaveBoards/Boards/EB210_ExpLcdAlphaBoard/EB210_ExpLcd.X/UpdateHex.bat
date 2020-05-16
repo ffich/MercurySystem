@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\EB210_ExpLcd.X.production.hex" "..\..\01_FwImages\"

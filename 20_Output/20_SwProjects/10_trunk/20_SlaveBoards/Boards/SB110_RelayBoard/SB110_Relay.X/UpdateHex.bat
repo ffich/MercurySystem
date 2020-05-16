@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB110_Relay.X.production.hex" "..\..\01_FwImages\"

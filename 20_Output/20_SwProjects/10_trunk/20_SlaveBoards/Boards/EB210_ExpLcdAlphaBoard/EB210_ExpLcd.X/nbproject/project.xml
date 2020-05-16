@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>EB210_ExpLcd</name>
+            <creation-uuid>2da31eac-83ea-4b41-9241-d412664441ce</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/h/01_Hal</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/h/02_Osl</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/h/03_Sml</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/c/00_Main</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/c/01_Hal</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/c/02_Osl</sourceRootElem>
+                <sourceRootElem>../../../Framework/MercuryFwk/Source/c/03_Sml</sourceRootElem>
+                <sourceRootElem>../Source/h/04_App</sourceRootElem>
+                <sourceRootElem>../Source/c/04_App</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>TestEnv</name>
+            <creation-uuid>1338f959-b0e9-437b-856c-c4b12801680b</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../../../MercuryFwk/Source/h/01_Hal</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/h/02_Osl</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/h/03_Sml</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/c/00_Main</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/c/01_Hal</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/c/02_Osl</sourceRootElem>
+                <sourceRootElem>../../../MercuryFwk/Source/c/03_Sml</sourceRootElem>
+                <sourceRootElem>../Source/h/04_App</sourceRootElem>
+                <sourceRootElem>../Source/c/04_App</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>Standalone</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Bootloader</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

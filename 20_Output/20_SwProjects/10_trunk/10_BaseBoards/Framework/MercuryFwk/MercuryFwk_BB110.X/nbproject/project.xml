@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>MercuryFwk_BB110</name>
+            <creation-uuid>c120e78c-ced2-4472-8fd4-ad89fade18e0</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects>
+                <make-dep-project>F:/_Repository/Progetti/Prodotti/2016/FFPR1601_MercurySystem/20_Output/20_SwProjects/SW_BaseBoards/trunk/Bootloader/BootFwk/MercuryBoot_BB110.X</make-dep-project>
+            </make-dep-projects>
+            <sourceRootList>
+                <sourceRootElem>../Source</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>Merged</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Standalone</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Bootloader</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB810_GenIO.X.production.hex" "..\..\01_FwImages\"

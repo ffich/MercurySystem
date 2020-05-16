@@ -1,0 +1,31 @@
+
+
+Microchip Technology PIC18 Macro Assembler V1.45 build -152302408 
+                                                                                                           Mon Dec 10 10:17:28 2018
+
+
+     1                           
+     2                           # 1 "../Source/c/VectorRemap.asm"
+     3                           
+     4                           # 1
+     5                           ;
+     6                           
+     7                           # 20
+     8                           ;
+     9                           
+    10                           PSECT HiVector,class=CODE,delta=1,abs
+    11                           
+    12  000008                     goto 0x2008 ;Resides at 0x0008 (hardware high priority interrupt vector), and causes PC to jump to 0
+                                 x1008 upon a high priority interrupt event
+    13  000008  EF04 F010          
+    14                           
+    15                           ;
+    16                           ;
+    17                           
+    18                           PSECT LoVector,class=CODE,delta=1,abs
+    19                           
+    20                           org 0x18
+    21  000018                     goto 0x2018 ;Resides at 0x0018 (hardware low priority interrupt vector), and causes PC to jump to 0x
+                                 1018 upon a low priority interrupt event
+    22  000018  EF0C F010          goto 0x30 ;Resides at 0x001C
+    23  00001C  EF18 F000          

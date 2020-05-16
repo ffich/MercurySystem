@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB320_Infrared.X.production.hex" "..\..\01_FwImages\"

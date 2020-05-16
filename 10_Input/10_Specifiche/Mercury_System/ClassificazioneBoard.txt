@@ -1,0 +1,30 @@
+BB (Base Board):
+100 --> Basate su processori Mircohip (PIC18, PIC24, dsPIC, PIC32MX, PIC32MZ, PIC32MM)
+200 --> Basate su procesori ARM
+
+SB (Slave Board):
+100-200 --> Attuatori
+300-400-500 --> Sensori
+600 --> Comunicazione
+700 --> Interfacce
+800 --> Speciali (storage, rtcc, proto...)
+
+MB (Modem Board):
+100 --> GSM/GPRS
+200 --> WiFi
+300 --> BT
+400 --> 802.15.4 (zigbee, miwi)
+600 --> RF Long range (LoRa, Sigfox)
+700 --> RF classico (433, 868)
+800 --> Speciali (Webserver, Proto)
+
+PB (Power Board):
+100 --> Potenze fino a 10A
+200 --> Potenze fino a 20A
+300 --> Solar Harvesting
+
+EB (Expansion Board):
+100 --> ExpansionBoard classiche
+200 --> ExpansionBoard con Display
+300 --> ExpansionBoard con batterie
+400 --> ExpansionBoard con Relè

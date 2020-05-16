@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB130_Servo.X.production.hex" "..\..\01_FwImages\"

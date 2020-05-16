@@ -1,0 +1,935 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46J50 ]
+[d frameptr 4065 ]
+"248 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _UserInit UserInit `(v  1 e 1 0 ]
+"276
+[v _ProcessIO ProcessIO `(v  1 e 1 0 ]
+"487
+[v _SignFlash SignFlash `(v  1 e 1 0 ]
+"572
+[v _ResetDeviceCleanly ResetDeviceCleanly `(v  1 e 1 0 ]
+"587
+[v _WriteFlashSubBlock WriteFlashSubBlock `(v  1 e 1 0 ]
+"646
+[v _UnlockAndActivate UnlockAndActivate `(v  1 e 1 0 ]
+"692
+[v _EraseFlashPage EraseFlashPage `(v  1 e 1 0 ]
+"309 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _main main `(v  1 e 1 0 ]
+"413
+[v _BootMain BootMain `(v  1 e 1 @48 ]
+"500
+[v _InitializeSystem InitializeSystem `(v  1 e 1 0 ]
+"678
+[v _BlinkUSBStatus BlinkUSBStatus `(v  1 e 1 0 ]
+"702
+[v _LowVoltageCheck LowVoltageCheck `(v  1 e 1 0 ]
+"841
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 1 0 ]
+"877
+[v _USBCBSuspend USBCBSuspend `(v  1 e 1 0 ]
+"938
+[v _USBCBInitEP USBCBInitEP `(v  1 e 1 0 ]
+"989
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 1 0 ]
+"295 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"323
+[v _USBSoftAttach USBSoftAttach `(v  1 e 1 0 ]
+"375
+[v _USBCheckBusStatus USBCheckBusStatus `(v  1 e 1 0 ]
+"441
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"587
+[v _USBSuspend USBSuspend `(v  1 e 1 0 ]
+"679
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 e 1 0 ]
+"722
+[v _USBProtocolResetHandler USBProtocolResetHandler `(v  1 e 1 0 ]
+"790
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 e 1 0 ]
+"993
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 e 1 0 ]
+"1063
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 e 1 0 ]
+"1147
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 e 1 0 ]
+"1294
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 e 1 0 ]
+"1361
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 e 1 0 ]
+"1409
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 e 1 0 ]
+"1458
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 e 1 0 ]
+"1516
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 e 1 0 ]
+"1561
+[v _LoadBDTandSetUOWN LoadBDTandSetUOWN `(v  1 e 1 0 ]
+"1593
+[v _USBDisableWithLongDelay USBDisableWithLongDelay `(v  1 e 1 0 ]
+"1603
+[v _DelayRoutine DelayRoutine `(v  1 e 1 0 ]
+"1620
+[v _ClearWatchdog ClearWatchdog `(v  1 e 1 0 ]
+"59 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+"125
+[v _HIDGetReportHandler HIDGetReportHandler `(v  1 e 1 0 ]
+"130
+[v _HIDSetReportHandler HIDSetReportHandler `(v  1 e 1 0 ]
+"157
+[v _HIDInitEP HIDInitEP `(v  1 e 1 0 ]
+"215
+[v _HIDTxReport HIDTxReport `(v  1 e 1 0 ]
+"270
+[v _HIDRxReport HIDRxReport `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"215 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _MaxPageToErase MaxPageToErase `uc  1 e 1 0 ]
+[s S21 . 64 `uc 1 Command 1 0 `ul 1 Address 4 1 `uc 1 Size 1 5 `[58]uc 1 Data 58 6 ]
+"216
+[s S26 . 65 `uc 1 Command 1 0 `uc 1 PacketDataFieldSize 1 1 `uc 1 BytesPerAddress 1 2 `uc 1 Type1 1 3 `ul 1 Address1 4 4 `ul 1 Length1 4 8 `uc 1 Type2 1 12 `ul 1 Address2 4 13 `ul 1 Length2 4 17 `uc 1 Type3 1 21 `ul 1 Address3 4 22 `ul 1 Length3 4 26 `uc 1 Type4 1 30 `ul 1 Address4 4 31 `ul 1 Length4 4 35 `uc 1 Type5 1 39 `ul 1 Address5 4 40 `ul 1 Length5 4 44 `uc 1 Type6 1 48 `ul 1 Address6 4 49 `ul 1 Length6 4 53 `uc 1 VersionFlag 1 57 `[7]uc 1 ExtraPadBytes 7 58 ]
+[s S50 . 2 `uc 1 Command 1 0 `uc 1 LockValue 1 1 ]
+[s S53 . 31 `uc 1 Command 1 0 `ui 1 BootloaderVersion 2 1 `ui 1 ApplicationVersion 2 3 `ul 1 SignatureAddress 4 5 `ui 1 SignatureValue 2 9 `ul 1 ErasePageSize 4 11 `uc 1 Config1LMask 1 15 `uc 1 Config1HMask 1 16 `uc 1 Config2LMask 1 17 `uc 1 Config2HMask 1 18 `uc 1 Config3LMask 1 19 `uc 1 Config3HMask 1 20 `uc 1 Config4LMask 1 21 `uc 1 Config4HMask 1 22 `uc 1 Config5LMask 1 23 `uc 1 Config5HMask 1 24 `uc 1 Config6LMask 1 25 `uc 1 Config6HMask 1 26 `uc 1 Config7LMask 1 27 `uc 1 Config7HMask 1 28 `uc 1 Config8LMask 1 29 `uc 1 Config8HMask 1 30 ]
+[u S76 . 65 `[64]uc 1 Contents 64 0 `S21 1 . 64 0 `S26 1 . 65 0 `S50 1 . 2 0 `S53 1 . 31 0 ]
+[v _PacketFromPC PacketFromPC `S76  1 e 65 0 ]
+"220
+[v _PacketToPC PacketToPC `S76  1 e 65 0 ]
+"224
+[v _ProgrammingBuffer ProgrammingBuffer `[1024]uc  1 e 1024 0 ]
+"228
+[v _ProgramMemStopAddress ProgramMemStopAddress `ul  1 e 4 0 ]
+"229
+[v _BootState BootState `uc  1 e 1 0 ]
+"230
+[v _BufferedDataIndex BufferedDataIndex `c  1 e 1 0 ]
+"231
+[v _ProgrammedPointer ProgrammedPointer `ul  1 e 4 0 ]
+"243 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _uint_delay_counter uint_delay_counter `ui  1 e 2 0 ]
+"262
+[v _FlashSignatureWord FlashSignatureWord `Cui  1 e 2 @8198 ]
+[s S1017 _USB_DEV_DSC 18 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDevCls 1 4 `uc 1 bDevSubCls 1 5 `uc 1 bDevProtocol 1 6 `uc 1 bMaxPktSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iMFR 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNum 1 16 `uc 1 bNumCfg 1 17 ]
+"162 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_descriptors.c
+[v _device_dsc device_dsc `CS1017  1 e 18 0 ]
+"181
+[v _CFG01 CFG01 `C[41]uc  1 e 41 0 ]
+[s S1068 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"234
+[v _sd000 sd000 `CS1068  1 e 4 0 ]
+[s S1072 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"237
+[v _sd001 sd001 `CS1072  1 e 52 0 ]
+[s S1076 . 38 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[18]ui 1 string 36 2 ]
+"242
+[v _sd002 sd002 `CS1076  1 e 38 0 ]
+"247
+[v _hid_rpt01 hid_rpt01 `C[29]uc  1 e 29 0 ]
+"270
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+"49 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _bTRNIFCount bTRNIFCount `uc  1 e 1 0 ]
+"50
+[v _ctrl_trf_state ctrl_trf_state `uc  1 e 1 0 ]
+"51
+[v _ctrl_trf_session_owner ctrl_trf_session_owner `uc  1 e 1 0 ]
+[s S1114 . 2 `uc 1 bLow 1 0 `uc 1 bHigh 1 1 ]
+"52
+[u S1117 _POINTER 3 `S1114 1 . 2 0 `ui 1 _word 2 0 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2Cus 1 wRom 3 0 ]
+[v _pSrc pSrc `S1117  1 e 3 0 ]
+"53
+[v _pDst pDst `S1117  1 e 3 0 ]
+[s S1124 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"54
+[s S1127 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S1144 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S1124 1 byte 2 0 `S1127 1 bits 2 0 ]
+[v _wCount wCount `S1144  1 e 2 0 ]
+"55
+[v _short_pkt_status short_pkt_status `uc  1 e 1 0 ]
+[s S1149 . 8 `[8]uc 1 _byte 8 0 ]
+"56
+[s S1151 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+[s S1157 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S1144 1 W_Value 2 2 `S1144 1 W_Index 2 4 `S1144 1 W_Length 2 6 ]
+[s S1163 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1174 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDscType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1182 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1191 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bCfgValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1200 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1209 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1218 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S1229 _CTRL_TRF_SETUP 8 `S1149 1 . 8 0 `S1151 1 . 8 0 `S1157 1 . 8 0 `S1163 1 . 8 0 `S1174 1 . 8 0 `S1182 1 . 8 0 `S1191 1 . 8 0 `S1200 1 . 8 0 `S1209 1 . 8 0 `S1218 1 . 8 0 ]
+[v _SetupPkt SetupPkt `S1229  1 e 8 0 ]
+"57
+[v _EP0OutOddNeedsArmingNext EP0OutOddNeedsArmingNext `uc  1 e 1 0 ]
+[s S102 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"58
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :2:6 
+]
+[s S118 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S122 _BD_STAT 1 `uc 1 _byte 1 0 `S102 1 . 1 0 `S111 1 . 1 0 `S118 1 . 1 0 ]
+[s S127 . 4 `S122 1 Stat 1 0 `uc 1 Cnt 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S132 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S136 _BDT 4 `S127 1 . 4 0 `S132 1 . 4 0 ]
+[v _TempBDT TempBDT `S136  1 e 4 0 ]
+"59
+[v _usb_device_state usb_device_state `uc  1 e 1 0 ]
+[s S1277 . 1 `uc 1 RemoteWakeup 1 0 :1:0 
+`uc 1 ctrl_trf_mem 1 0 :1:1 
+]
+"60
+[u S1280 _USB_DEVICE_STATUS 1 `uc 1 _byte 1 0 `S1277 1 . 1 0 ]
+[v _usb_stat usb_stat `S1280  1 e 1 0 ]
+"61
+[v _usb_active_cfg usb_active_cfg `uc  1 e 1 0 ]
+"62
+[v _usb_alt_intf usb_alt_intf `[1]uc  1 e 1 0 ]
+"68
+[v _USTATSave USTATSave `uc  1 e 1 0 ]
+"70
+[v _DeviceIsSoftDetached DeviceIsSoftDetached `uc  1 e 1 0 ]
+"139
+[v _ep0BoEven ep0BoEven `VES136  1 e 4 @1024 ]
+"140
+[v _ep0BoOdd ep0BoOdd `VES136  1 e 4 @1028 ]
+"141
+[v _ep0Bi ep0Bi `VES136  1 e 4 @1032 ]
+"145
+[v _ep1Bo ep1Bo `VES136  1 e 4 @1036 ]
+"146
+[v _ep1Bi ep1Bi `VES136  1 e 4 @1040 ]
+"223
+[v _EP0OutEvenBuf EP0OutEvenBuf `VE[8]uc  1 e 8 @1044 ]
+"224
+[v _EP0OutOddBuf EP0OutOddBuf `VE[8]uc  1 e 8 @1052 ]
+"225
+[s S1285 . 8 `uc 1 _byte0 1 0 `uc 1 _byte1 1 1 `uc 1 _byte2 1 2 `uc 1 _byte3 1 3 `uc 1 _byte4 1 4 `uc 1 _byte5 1 5 `uc 1 _byte6 1 6 `uc 1 _byte7 1 7 ]
+[s S1294 . 8 `ui 1 _word0 2 0 `ui 1 _word1 2 2 `ui 1 _word2 2 4 `ui 1 _word3 2 6 ]
+[u S1299 _CTRL_TRF_DATA 8 `S1149 1 . 8 0 `S1285 1 . 8 0 `S1294 1 . 8 0 ]
+[v _CtrlTrfData CtrlTrfData `VES1299  1 e 8 @1060 ]
+"232
+[v _hid_report_out hid_report_out `VE[64]uc  1 e 64 @1068 ]
+"233
+[v _hid_report_in hid_report_in `VE[64]uc  1 e 64 @1132 ]
+"29 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device_hid.c
+[v _idle_rate idle_rate `uc  1 e 1 0 ]
+"30
+[v _active_protocol active_protocol `uc  1 e 1 0 ]
+"31
+[v _hid_rpt_rx_len hid_rpt_rx_len `uc  1 e 1 0 ]
+"329 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f46j50.h
+[v _UEP0 UEP0 `VEuc  1 e 1 @3878 ]
+"437
+[v _UEP1 UEP1 `VEuc  1 e 1 @3879 ]
+"545
+[v _UEP2 UEP2 `VEuc  1 e 1 @3880 ]
+"653
+[v _UEP3 UEP3 `VEuc  1 e 1 @3881 ]
+"761
+[v _UEP4 UEP4 `VEuc  1 e 1 @3882 ]
+"869
+[v _UEP5 UEP5 `VEuc  1 e 1 @3883 ]
+"977
+[v _UEP6 UEP6 `VEuc  1 e 1 @3884 ]
+"1085
+[v _UEP7 UEP7 `VEuc  1 e 1 @3885 ]
+"1801
+[v _UIE UIE `VEuc  1 e 1 @3894 ]
+[s S1445 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"1817
+[u S1453 . 1 `S1445 1 . 1 0 ]
+[v _UIEbits UIEbits `VES1453  1 e 1 @3894 ]
+"1857
+[v _UEIE UEIE `VEuc  1 e 1 @3895 ]
+"1908
+[v _UADDR UADDR `VEuc  1 e 1 @3896 ]
+"1972
+[v _UCFG UCFG `VEuc  1 e 1 @3897 ]
+"2345
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3912 ]
+"2407
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3913 ]
+"3478
+[v _UIR UIR `VEuc  1 e 1 @3938 ]
+[s S1326 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"3494
+[u S1334 . 1 `S1326 1 . 1 0 ]
+[v _UIRbits UIRbits `VES1334  1 e 1 @3938 ]
+"3585
+[v _USTAT USTAT `VEuc  1 e 1 @3940 ]
+[s S1354 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PPBI 1 0 :1:1 
+`uc 1 DIR 1 0 :1:2 
+`uc 1 ENDP 1 0 :4:3 
+]
+"3605
+[s S1359 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ENDP0 1 0 :1:3 
+`uc 1 ENDP1 1 0 :1:4 
+`uc 1 ENDP2 1 0 :1:5 
+`uc 1 ENDP3 1 0 :1:6 
+]
+[u S1365 . 1 `S1354 1 . 1 0 `S1359 1 . 1 0 ]
+[v _USTATbits USTATbits `VES1365  1 e 1 @3940 ]
+"3645
+[v _UCON UCON `VEuc  1 e 1 @3941 ]
+[s S83 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"3661
+[u S91 . 1 `S83 1 . 1 0 ]
+[v _UCONbits UCONbits `VES91  1 e 1 @3941 ]
+[s S628 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"6614
+[s S637 . 1 `uc 1 PMD0 1 0 :1:0 
+`uc 1 PMD1 1 0 :1:1 
+`uc 1 PMD2 1 0 :1:2 
+`uc 1 PMD3 1 0 :1:3 
+`uc 1 PMD4 1 0 :1:4 
+`uc 1 PMD5 1 0 :1:5 
+`uc 1 PMD6 1 0 :1:6 
+`uc 1 PMD7 1 0 :1:7 
+]
+[s S646 . 1 `uc 1 SCL2 1 0 :1:0 
+`uc 1 SDA2 1 0 :1:1 
+`uc 1 RP19 1 0 :1:2 
+`uc 1 RP20 1 0 :1:3 
+`uc 1 RP21 1 0 :1:4 
+`uc 1 RP22 1 0 :1:5 
+`uc 1 RP23 1 0 :1:6 
+`uc 1 RP24 1 0 :1:7 
+]
+[s S655 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S658 . 1 `S628 1 . 1 0 `S637 1 . 1 0 `S646 1 . 1 0 `S655 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES658  1 e 1 @3971 ]
+[s S746 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"7468
+[s S755 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S764 . 1 `S746 1 . 1 0 `S755 1 . 1 0 ]
+[v _LATDbits LATDbits `VES764  1 e 1 @3980 ]
+[s S607 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"7984
+[u S616 . 1 `S607 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES616  1 e 1 @3989 ]
+[s S712 . 1 `uc 1 TUN 1 0 :6:0 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"8331
+[s S716 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+]
+[u S723 . 1 `S712 1 . 1 0 `S716 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES723  1 e 1 @3995 ]
+[s S1408 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 LVDIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 USBIE 1 0 :1:4 
+`uc 1 CM1IE 1 0 :1:5 
+`uc 1 CM2IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"8818
+[s S1417 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BCLIE 1 0 :1:3 
+]
+[s S1420 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S1423 . 1 `S1408 1 . 1 0 `S1417 1 . 1 0 `S1420 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1423  1 e 1 @4000 ]
+[s S828 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 USBIF 1 0 :1:4 
+`uc 1 CM1IF 1 0 :1:5 
+`uc 1 CM2IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"8898
+[s S837 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[s S840 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S843 . 1 `S828 1 . 1 0 `S837 1 . 1 0 `S840 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES843  1 e 1 @4001 ]
+"9299
+[v _EECON1 EECON1 `VEuc  1 e 1 @4006 ]
+[s S311 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 WPROG 1 0 :1:5 
+]
+"9314
+[u S318 . 1 `S311 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES318  1 e 1 @4006 ]
+"9344
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+[s S791 . 1 `uc 1 SWDTEN 1 0 :1:0 
+`uc 1 ULPSINK 1 0 :1:1 
+`uc 1 ULPEN 1 0 :1:2 
+`uc 1 DS 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 ULPLVL 1 0 :1:5 
+`uc 1 LVDSTAT 1 0 :1:6 
+`uc 1 REGSLP 1 0 :1:7 
+]
+"11739
+[s S800 . 1 `uc 1 SWDTE 1 0 :1:0 
+]
+[u S802 . 1 `S791 1 . 1 0 `S800 1 . 1 0 ]
+[v _WDTCONbits WDTCONbits `VES802  1 e 1 @4032 ]
+[s S863 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"14480
+[s S865 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S868 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S871 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S874 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S877 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+[s S880 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S889 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+[u S896 . 1 `S863 1 . 1 0 `S865 1 . 1 0 `S868 1 . 1 0 `S871 1 . 1 0 `S874 1 . 1 0 `S877 1 . 1 0 `S880 1 . 1 0 `S889 1 . 1 0 ]
+[v _RCONbits RCONbits `VES896  1 e 1 @4048 ]
+"15112
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16006
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S256 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16038
+[s S265 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S274 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S278 . 1 `S256 1 . 1 0 `S265 1 . 1 0 `S274 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES278  1 e 1 @4082 ]
+"16170
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"16199
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"16219
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"16239
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"16309
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"309 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"311
+[v main@Button Button `VEuc  1 a 1 16 ]
+"386
+} 0
+"413
+[v _BootMain BootMain `(v  1 e 1 @48 ]
+{
+"474
+} 0
+"276 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _ProcessIO ProcessIO `(v  1 e 1 0 ]
+{
+"278
+[v ProcessIO@i i `ui  1 s 2 i ]
+"475
+} 0
+"587
+[v _WriteFlashSubBlock WriteFlashSubBlock `(v  1 e 1 0 ]
+{
+"589
+[v WriteFlashSubBlock@i i `uc  1 s 1 i ]
+"591
+[v WriteFlashSubBlock@Address Address `ul  1 s 4 Address ]
+"633
+} 0
+"441 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+[s S102 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"443
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :2:6 
+]
+[s S118 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S122 _BD_STAT 1 `uc 1 _byte 1 0 `S102 1 . 1 0 `S111 1 . 1 0 `S118 1 . 1 0 ]
+[s S127 . 4 `S122 1 Stat 1 0 `uc 1 Cnt 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S132 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S136 _BDT 4 `S127 1 . 4 0 `S132 1 . 4 0 ]
+[v USBDeviceTasks@pBDTEntry pBDTEntry `*.39VES136  1 s 2 pBDTEntry ]
+"444
+[v USBDeviceTasks@i i `uc  1 s 1 i ]
+"562
+} 0
+"679
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 e 1 0 ]
+{
+"691
+} 0
+"841 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 1 0 ]
+{
+"858
+} 0
+"587 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBSuspend USBSuspend `(v  1 e 1 0 ]
+{
+"589
+[v USBSuspend@UIESave UIESave `uc  1 s 1 UIESave ]
+"662
+} 0
+"877 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _USBCBSuspend USBCBSuspend `(v  1 e 1 0 ]
+{
+"879
+[v USBCBSuspend@OSCCONSave OSCCONSave `uc  1 s 1 OSCCONSave ]
+"910
+} 0
+"790 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 e 1 0 ]
+{
+"828
+} 0
+"1147
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 e 1 0 ]
+{
+"1274
+} 0
+"1294
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 e 1 0 ]
+{
+"1341
+} 0
+"1409
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 e 1 0 ]
+{
+"1411
+[v USBStdSetCfgHandler@i i `uc  1 s 1 i ]
+"1440
+} 0
+"1458
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 e 1 0 ]
+{
+"1497
+} 0
+"1361
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 e 1 0 ]
+{
+"1390
+} 0
+"1516
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 e 1 0 ]
+{
+"1551
+} 0
+"989 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 1 0 ]
+{
+"992
+} 0
+"59 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+{
+"123
+} 0
+"130
+[v _HIDSetReportHandler HIDSetReportHandler `(v  1 e 1 0 ]
+{
+"134
+} 0
+"125
+[v _HIDGetReportHandler HIDGetReportHandler `(v  1 e 1 0 ]
+{
+"128
+} 0
+"993 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 e 1 0 ]
+{
+"1041
+} 0
+"1063
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 e 1 0 ]
+{
+"1065
+[v USBCtrlTrfTxService@bytes_to_send bytes_to_send `uc  1 s 1 bytes_to_send ]
+"1117
+} 0
+"487 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _SignFlash SignFlash `(v  1 e 1 0 ]
+{
+"490
+[v SignFlash@pROM pROM `*.33CFuc  1 a 3 11 ]
+"489
+[v SignFlash@i i `ui  1 s 2 i ]
+"560
+} 0
+"692
+[v _EraseFlashPage EraseFlashPage `(v  1 e 1 0 ]
+{
+[v EraseFlashPage@PageNumToErase PageNumToErase `ui  1 p 2 1 ]
+"694
+[v EraseFlashPage@TablePointerValue TablePointerValue `ul  1 s 4 TablePointerValue ]
+"713
+} 0
+"646
+[v _UnlockAndActivate UnlockAndActivate `(v  1 e 1 0 ]
+{
+[v UnlockAndActivate@UnlockKey UnlockKey `uc  1 a 1 wreg ]
+[v UnlockAndActivate@UnlockKey UnlockKey `uc  1 a 1 wreg ]
+"648
+[v UnlockAndActivate@UnlockKey UnlockKey `uc  1 a 1 0 ]
+"689
+} 0
+"702 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _LowVoltageCheck LowVoltageCheck `(v  1 e 1 0 ]
+{
+"737
+} 0
+"572 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _ResetDeviceCleanly ResetDeviceCleanly `(v  1 e 1 0 ]
+{
+"578
+} 0
+"215 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device_hid.c
+[v _HIDTxReport HIDTxReport `(v  1 e 1 0 ]
+{
+"217
+[v HIDTxReport@i i `uc  1 a 1 4 ]
+"215
+[v HIDTxReport@buffer buffer `*.39uc  1 p 2 0 ]
+[v HIDTxReport@len len `uc  1 p 1 2 ]
+"235
+} 0
+"270
+[v _HIDRxReport HIDRxReport `(uc  1 e 1 0 ]
+{
+[v HIDRxReport@buffer buffer `*.39uc  1 p 2 0 ]
+[v HIDRxReport@len len `uc  1 p 1 2 ]
+"298
+} 0
+"500 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _InitializeSystem InitializeSystem `(v  1 e 1 0 ]
+{
+"654
+} 0
+"295 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"317
+} 0
+"375
+[v _USBCheckBusStatus USBCheckBusStatus `(v  1 e 1 0 ]
+{
+"412
+} 0
+"323
+[v _USBSoftAttach USBSoftAttach `(v  1 e 1 0 ]
+{
+"343
+} 0
+"722
+[v _USBProtocolResetHandler USBProtocolResetHandler `(v  1 e 1 0 ]
+{
+"748
+} 0
+"938 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _USBCBInitEP USBCBInitEP `(v  1 e 1 0 ]
+{
+[v USBCBInitEP@ConfigurationIndex ConfigurationIndex `uc  1 a 1 wreg ]
+[v USBCBInitEP@ConfigurationIndex ConfigurationIndex `uc  1 a 1 wreg ]
+"947
+[v USBCBInitEP@ConfigurationIndex ConfigurationIndex `uc  1 a 1 0 ]
+"963
+} 0
+"248 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/boot_18fxxjxx.c
+[v _UserInit UserInit `(v  1 e 1 0 ]
+{
+"256
+} 0
+"157 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device_hid.c
+[v _HIDInitEP HIDInitEP `(v  1 e 1 0 ]
+{
+"183
+} 0
+"1561 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/usb_device.c
+[v _LoadBDTandSetUOWN LoadBDTandSetUOWN `(v  1 e 1 0 ]
+{
+[v LoadBDTandSetUOWN@BDTIndexToLoad BDTIndexToLoad `uc  1 a 1 wreg ]
+[v LoadBDTandSetUOWN@BDTIndexToLoad BDTIndexToLoad `uc  1 a 1 wreg ]
+[s S102 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1563
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :2:6 
+]
+[s S118 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S122 _BD_STAT 1 `uc 1 _byte 1 0 `S102 1 . 1 0 `S111 1 . 1 0 `S118 1 . 1 0 ]
+[s S127 . 4 `S122 1 Stat 1 0 `uc 1 Cnt 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S132 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S136 _BDT 4 `S127 1 . 4 0 `S132 1 . 4 0 ]
+[v LoadBDTandSetUOWN@pBDTEntry pBDTEntry `*.39VES136  1 s 2 pBDTEntry ]
+"1569
+[v LoadBDTandSetUOWN@BDTIndexToLoad BDTIndexToLoad `uc  1 a 1 0 ]
+"1586
+} 0
+"1593
+[v _USBDisableWithLongDelay USBDisableWithLongDelay `(v  1 e 1 0 ]
+{
+"1599
+} 0
+"1603
+[v _DelayRoutine DelayRoutine `(v  1 e 1 0 ]
+{
+[v DelayRoutine@DelayAmount DelayAmount `ui  1 p 2 0 ]
+"1610
+} 0
+"1620
+[v _ClearWatchdog ClearWatchdog `(v  1 e 1 0 ]
+{
+"1623
+} 0
+"678 F:\_Repository\Progetti\Prodotti\2016\FFPR1601_MercurySystem\20_Output\20_SwProjects\SW_BaseBoards\trunk\Bootloader\BootFwk/Source/c/main.c
+[v _BlinkUSBStatus BlinkUSBStatus `(v  1 e 1 0 ]
+{
+"681
+[v BlinkUSBStatus@led_count led_count `ui  1 s 2 led_count ]
+"697
+} 0

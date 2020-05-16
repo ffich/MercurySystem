@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB120_Neopixel.X.production.hex" "..\..\01_FwImages\"

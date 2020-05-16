@@ -1,0 +1,1 @@
+xcopy /s/y "dist\default\production\SB310_UsBoard.X.production.hex" "..\..\01_FwImages\"

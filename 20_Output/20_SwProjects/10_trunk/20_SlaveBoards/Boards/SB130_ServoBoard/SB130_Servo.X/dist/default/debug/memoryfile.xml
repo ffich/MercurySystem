@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug\SB130_Servo.X.debug.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>4924</used>
+      <free>3268</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>659</used>
+      <free>365</free>
+    </memory>
+  </executable>
+</project>

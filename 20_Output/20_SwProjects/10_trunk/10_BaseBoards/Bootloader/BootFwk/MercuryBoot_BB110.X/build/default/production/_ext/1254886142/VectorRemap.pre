@@ -1,0 +1,27 @@
+
+# 1 "../Source/c/VectorRemap.asm"
+
+# 1
+;
+
+# 20
+;
+
+PSECT HiVector,class=CODE,delta=1,abs
+
+org 0x08
+goto 0x2008 ;Resides at 0x0008 (hardware high priority interrupt vector), and causes PC to jump to 0x1008 upon a high priority interrupt event
+
+
+;
+;
+
+PSECT LoVector,class=CODE,delta=1,abs
+
+org 0x18
+goto 0x2018 ;Resides at 0x0018 (hardware low priority interrupt vector), and causes PC to jump to 0x1018 upon a low priority interrupt event
+goto 0x30 ;Resides at 0x001C
+
+
+
+end
