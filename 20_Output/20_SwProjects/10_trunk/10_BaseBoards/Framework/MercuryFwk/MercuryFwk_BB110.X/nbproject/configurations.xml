@@ -173,7 +173,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.0.8"/>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
       </packs>
       <compileType>
         <linkerTool>
@@ -695,6 +695,9 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Simulator>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+      </XC8-CO>
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
         <property key="output-file-format" value="-mcof,+elf"/>
@@ -716,7 +719,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.0.8"/>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
       </packs>
       <compileType>
         <linkerTool>
@@ -1205,7 +1208,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.0.8"/>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
       </packs>
       <compileType>
         <linkerTool>
