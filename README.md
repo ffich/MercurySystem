@@ -23,6 +23,17 @@ The hardware is organized into distinct families:
 
 ---
 
+### Example of connection:
+
+<img width="750" height="514" alt="image" src="https://github.com/user-attachments/assets/0d0fbb9c-dab1-4783-b8df-96d61bb99854" />
+
+### Mercury Ecosystem:
+
+<img width="750" height="472" alt="image" src="https://github.com/user-attachments/assets/2c5be269-0934-4889-a8ab-9d1dd64e1e17" />
+
+
+---
+
 ### 🧑‍💻 Software Framework (MSF)
 
 The **Mercury System Framework (MSF)** is a **layered software architecture** that abstracts hardware details and provides a clean structure for building embedded and IoT applications.  
@@ -74,6 +85,13 @@ At the top sits the **user application**, which ties everything together:
 - Registers tasks in the OSL scheduler to run periodically.  
 - Implements business logic, e.g., *“read temperature sensor every 10s and send via GSM”*.  
 - Designed to be easily portable across projects by reusing configuration and task code.  
+
+---
+
+### MSF Architecture:
+
+<img width="750" height="623" alt="image" src="https://github.com/user-attachments/assets/d990db37-cc7c-4e4a-a282-3ea957c8e167" />
+
 
 ---
 
